@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+  <Device Base="15" Rim="10" Pedal="3" />
+  <Game MajorId="5" MinorId="0" />
+  <TuningMenu>
+    <SetupIndex>1</SetupIndex>
+    <ABS>101</ABS>
+    <BRF>70</BRF>
+    <DPR>50</DPR>
+    <DRI>0</DRI>
+    <FEI>50</FEI>
+    <FF>50</FF>
+    <FOR>100</FOR>
+    <NDP>20</NDP>
+    <NFR>10</NFR>
+    <SEN>1090</SEN>
+    <SHO>0</SHO>
+    <SPR>0</SPR>
+    <MPS>2</MPS>
+    <APM>1</APM>
+  </TuningMenu>
+  <DynamicFFB>
+    <Damper>
+      <DamperOverlay Enable="True">
+        <SpeedThreshold>100</SpeedThreshold>
+        <WheelAngleRange>44</WheelAngleRange>
+        <DamperStrength>100</DamperStrength>
+      </DamperOverlay>
+      <ReverseDriving Enable="True">
+        <DamperStrength>30</DamperStrength>
+        <FadeInIntensity>5</FadeInIntensity>
+      </ReverseDriving>
+    </Damper>
+    <Spring />
+    <Constant>
+      <CounterSteer Enable="False">
+        <CounterSteerStrength>1</CounterSteerStrength>
+        <RearFricionLimit>1</RearFricionLimit>
+      </CounterSteer>
+    </Constant>
+  </DynamicFFB>
+  <Vibration>
+    <SteeringWheel>
+      <Abs>0</Abs>
+      <AbsVibration>0</AbsVibration>
+      <Engine>0</Engine>
+      <InitialVibration>0</InitialVibration>
+      <RevLimiter>0</RevLimiter>
+      <RevLimiterThreshold>0</RevLimiterThreshold>
+      <SuspensionTravel>0</SuspensionTravel>
+      <SuspensionTravelThreshold>0,01</SuspensionTravelThreshold>
+      <TractionControl>0</TractionControl>
+      <VibrationDuration>0</VibrationDuration>
+      <WheelLock>0</WheelLock>
+      <WheelSpin>0</WheelSpin>
+      <VibrationUndersteer>0</VibrationUndersteer>
+      <VibrationUndersteerFrictionLimitAngle>0</VibrationUndersteerFrictionLimitAngle>
+      <VibrationOversteer>0</VibrationOversteer>
+      <VibrationOversteerFrictionLimitAngle>0</VibrationOversteerFrictionLimitAngle>
+    </SteeringWheel>
+    <Brake>
+      <Abs>False</Abs>
+      <AbsVibration>0</AbsVibration>
+      <SuspensionTravel>False</SuspensionTravel>
+      <SuspensionTravelThreshold>0,1</SuspensionTravelThreshold>
+      <WheelLock>False</WheelLock>
+      <VibrationUndersteer>False</VibrationUndersteer>
+      <VibrationUndersteerFrictionLimitAngle>0</VibrationUndersteerFrictionLimitAngle>
+      <VibrationOversteer>False</VibrationOversteer>
+      <VibrationOversteerFrictionLimitAngle>0</VibrationOversteerFrictionLimitAngle>
+    </Brake>
+    <Throttle>
+      <RevLimiter>False</RevLimiter>
+      <SuspensionTravel>False</SuspensionTravel>
+      <SuspensionTravelThreshold>0,1</SuspensionTravelThreshold>
+      <WheelSpin>False</WheelSpin>
+      <VibrationUndersteer>False</VibrationUndersteer>
+      <VibrationUndersteerFrictionLimitAngle>0</VibrationUndersteerFrictionLimitAngle>
+      <VibrationOversteer>False</VibrationOversteer>
+      <VibrationOversteerFrictionLimitAngle>0</VibrationOversteerFrictionLimitAngle>
+    </Throttle>
+  </Vibration>
+  <Led>
+    <ThreeDigitLed Enable="True" OledSevenSegmentMode="True">
+      <Speed>4</Speed>
+      <iRPM>4</iRPM>
+      <Fuel_I>4</Fuel_I>
+      <Gear>0</Gear>
+      <IsAbsInAction>4</IsAbsInAction>
+      <IsDrsAllowed>4</IsDrsAllowed>
+      <IsPitLimiterOn>3</IsPitLimiterOn>
+      <IsTcInAction>4</IsTcInAction>
+      <LapNumber>2</LapNumber>
+      <Position>1</Position>
+      <Sector>4</Sector>
+      <iERS>4</iERS>
+    </ThreeDigitLed>
+    <RevLed Enable="True">
+      <Rpm Led1="79,9" Led2="81,75" Led3="85,25" Led4="87" Led5="88,75" Led6="92,2" Led7="94" Led8="95,8" Led9="95,8" LedFlash="97,48" />
+      <RpmColor Led1="2" Led2="2" Led3="2" Led4="4" Led5="4" Led6="4" Led7="1" Led8="1" Led9="1" />
+      <IsInPit Led1="0" Led2="0" Led3="0" Led4="0" Led5="0" Led6="0" Led7="0" Led8="0" Led9="0" />
+      <IsPitLimiterOn Led1="5" Led2="5" Led3="5" Led4="5" Led5="5" Led6="5" Led7="5" Led8="5" Led9="5" />
+    </RevLed>
+    <LedFlags Enable="True">
+      <WheelSpin Led1="0" Led2="0" Led3="0" Led4="0" Led5="0" Led6="0" ConfigValue="0,9" Enable="True" />
+      <WheelLock Led1="0" Led2="0" Led3="0" Led4="0" Led5="0" Led6="0" ConfigValue="0" Enable="True" />
+      <IsInPit Led1="4" Led2="4" Led3="4" Led4="4" Led5="4" Led6="4" ConfigValue="0" Enable="True" />
+      <IsPitLimiterOn Led1="4" Led2="4" Led3="4" Led4="4" Led5="4" Led6="4" ConfigValue="0" Enable="True" />
+      <IsAbsInAction Led1="0" Led2="0" Led3="0" Led4="0" Led5="0" Led6="0" ConfigValue="0" Enable="False" />
+      <IsTcInAction Led1="0" Led2="0" Led3="0" Led4="0" Led5="0" Led6="0" ConfigValue="0" Enable="False" />
+      <IsDrsAllowed Led1="0" Led2="0" Led3="0" Led4="0" Led5="0" Led6="0" ConfigValue="0" Enable="True" />
+      <IsDrsActive Led1="0" Led2="0" Led3="0" Led4="0" Led5="0" Led6="0" ConfigValue="0" Enable="False" />
+      <IsFlagRed Led1="1" Led2="1" Led3="1" Led4="1" Led5="1" Led6="1" ConfigValue="0" Enable="True" />
+      <IsFlagYellow Led1="4" Led2="4" Led3="4" Led4="4" Led5="4" Led6="4" ConfigValue="0" Enable="True" />
+      <IsFlagBlue Led1="3" Led2="3" Led3="3" Led4="3" Led5="3" Led6="3" ConfigValue="0" Enable="True" />
+      <IsFlagGreen Led1="2" Led2="2" Led3="2" Led4="2" Led5="2" Led6="2" ConfigValue="0" Enable="True" />
+      <IsFlagWhite Led1="7" Led2="7" Led3="7" Led4="7" Led5="7" Led6="7" ConfigValue="0" Enable="True" />
+    </LedFlags>
+  </Led>
+</Settings>

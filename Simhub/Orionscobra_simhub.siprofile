@@ -1,0 +1,528 @@
+{
+  "AutomaticSwitch": false,
+  "EffectsContainers": [
+    {
+      "Filter": {
+        "GammaValue": 1.0,
+        "FilterType": "SimpleGammaFilter"
+      },
+      "LowForce": 2,
+      "HighForce": 6,
+      "MaxGPercent": 80.0,
+      "AutoMaxG": true,
+      "ContainerId": "1241bdcb-2adc-41dd-b050-0e77aa6972ea",
+      "ContainerType": "AccelerationGforceContainer",
+      "Description": "Provide acceleration feedback based on G-Force",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 50.0,
+      "IsEnabled": false,
+      "Output": {
+        "Frequency": 44,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": false,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "AutocalibrationMax": 95.0,
+      "Filter": {
+        "GammaValue": 1.0,
+        "InputGain": 100.0,
+        "MinimumForce": 0,
+        "Threshold": 0,
+        "FilterType": "GammaFilter"
+      },
+      "FrontLeftFormula": {
+        "Expression": ""
+      },
+      "FrontRightFormula": {
+        "Expression": ""
+      },
+      "RearLeftFormula": {
+        "Expression": ""
+      },
+      "RearRightFormula": {
+        "Expression": ""
+      },
+      "ContainerId": "a7af159f-6cf6-4265-8b7c-c70082383cc2",
+      "ContainerType": "CustomEffectContainer",
+      "Description": "Provides ability to create your own effect based on game data",
+      "AggregationMode": "Corners",
+      "FrontRearPan": 0.0,
+      "Gain": 90.0,
+      "IsEnabled": false,
+      "Output": {
+        "Frequency": 44,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": true,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "Filter": {
+        "GammaValue": 1.0,
+        "FilterType": "SimpleGammaFilter"
+      },
+      "LowForce": 4,
+      "HighForce": 12,
+      "MaxGPercent": 90.0,
+      "AutoMaxG": true,
+      "ContainerId": "07549fee-b34b-4542-a011-1fddb738fd17",
+      "ContainerType": "DecelerationGforceContainer",
+      "Description": "Provide deceleration feedback based on G-Force",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 50.0,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 44,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": false,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "Filter": {
+        "ControlPoints": [
+          "5;88",
+          "18;92",
+          "38;0",
+          "93;43",
+          "100;58",
+          "86;0"
+        ],
+        "CurveFitting": 0,
+        "FilterType": "SplineFilter"
+      },
+      "ContainerId": "47f8c38e-e6dc-4763-a048-15b87e0bcc20",
+      "ContainerType": "RPMContainer",
+      "Description": "Simulates engine vibration with a full customizable RPM/response curve",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 14.0,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 34,
+        "UseHighFrequency": true,
+        "HighFrequency": 55,
+        "WhiteNoise": 40,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": true,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": true,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "Gear1": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "Gear2": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "Gear3": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "Gear4": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "Gear5": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "Gear6": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "Gear7": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "GearR": {
+        "Trigger": null,
+        "PressType": 4
+      },
+      "Filter": {
+        "GammaValue": 1.2,
+        "FilterType": "SimpleGammaFilter"
+      },
+      "ContainerId": "ca3f932c-d3ca-4a63-828c-2336c5dd8f5d",
+      "ContainerType": "GearGrindingContainer",
+      "Description": "Provides feedback for grinding gears (Iracing only)",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 50.0,
+      "IsEnabled": false,
+      "Output": {
+        "Frequency": 44,
+        "UseHighFrequency": true,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": true,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "IgnoreNeutral": true,
+      "NeutralDebouningTime": 192.0,
+      "Filter": {
+        "Duration": 80,
+        "FilterType": "PulseFilter"
+      },
+      "ContainerId": "33ff7f7d-2295-4c11-9cdc-e33789fde301",
+      "ContainerType": "GearEffectContainer",
+      "Description": "Provides a pulse effect for gear shifting",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 38.666666666666345,
+      "IsEnabled": true,
+      "Output": {
+        "UsePrehemptiveMode": true,
+        "Frequency": 66,
+        "Harmonics": 0,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "SingleToneOutput"
+      }
+    },
+    {
+      "AutocalibrationMin": 42.0,
+      "Filter": {
+        "GammaValue": 1.0,
+        "InputGain": 100.0,
+        "MinimumForce": 0,
+        "Threshold": 0,
+        "FilterType": "GammaFilter"
+      },
+      "ContainerId": "243f3eef-c466-4da4-9495-4896ffbb2b9b",
+      "ContainerType": "WheelsImpactContainer",
+      "Description": "Provides localized feedback for bumps and other wheels impact on road",
+      "AggregationMode": "Corners",
+      "FrontRearPan": 0.0,
+      "Gain": 100.0,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 44,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": true,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "MaxEffectSpeed": 80.0,
+      "Filter": {
+        "GammaValue": 1.0,
+        "InputGain": 100.0,
+        "MinimumForce": 0,
+        "Threshold": 0,
+        "FilterType": "GammaFilter"
+      },
+      "ContainerId": "1b732146-81af-4dfc-8cb6-fba414b54a28",
+      "ContainerType": "WheelsRumbleContainer",
+      "Description": "Provides localized rumble for kerbs, grass ...",
+      "AggregationMode": "Corners",
+      "FrontRearPan": 0.0,
+      "Gain": 100.0,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 44,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": true,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "AutocalibrationMax": 100.0,
+      "UseAutoThreshold": true,
+      "AutoThresholdValue": 50.0,
+      "Filter": {
+        "GammaValue": 1.0,
+        "InputGain": 100.0,
+        "MinimumForce": 0,
+        "Threshold": 0,
+        "FilterType": "GammaFilter"
+      },
+      "ContainerId": "39a2967a-e6d7-469f-8045-6bbc2860756f",
+      "ContainerType": "WheelsVibrationContainer",
+      "Description": "Provides localized road vibration based on suspension telemetry",
+      "AggregationMode": "Corners",
+      "FrontRearPan": 0.0,
+      "Gain": 100.0,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 50,
+        "UseHighFrequency": true,
+        "HighFrequency": 44,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": true,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "Grain": 50.0,
+      "Filter": {
+        "GammaValue": 1.0,
+        "FilterType": "SimpleGammaFilter"
+      },
+      "LowSpeed": 5,
+      "HighSpeed": 120,
+      "ContainerId": "f2604684-37a9-40cd-8c70-a03d8784044c",
+      "ContainerType": "RoadTextureContainer",
+      "Description": "Simulate the road texture based on speed",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 20.0,
+      "IsEnabled": false,
+      "Output": {
+        "Frequency": 50,
+        "UseHighFrequency": true,
+        "HighFrequency": 44,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": false,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "Filter": {
+        "GammaValue": 1.0,
+        "FilterType": "SimpleGammaFilter"
+      },
+      "LowSpeed": 5,
+      "HighSpeed": 120,
+      "AutoMaxSpeed": true,
+      "MaxSpeedPercent": 90.0,
+      "ContainerId": "a4d541aa-1034-4463-aa9b-b7a3bae49c36",
+      "ContainerType": "SpeedContainer",
+      "Description": "Provide simple speed proportional feedback",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 11.333333333333371,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 55,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": false,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "Filter": {
+        "GammaValue": 1.0,
+        "FilterType": "SimpleGammaFilter"
+      },
+      "LowSpeed": 5,
+      "HighSpeed": 120,
+      "AutoMaxSpeed": true,
+      "MaxSpeedPercent": 90.0,
+      "OnlyInTurns": false,
+      "Curvature": 50,
+      "ContainerId": "60cbb7a1-b536-4887-aa24-000a28bdcd5f",
+      "ContainerType": "LocalizedSpeedContainer",
+      "Description": "Provide speed proportional feedback with left/right curving",
+      "AggregationMode": null,
+      "FrontRearPan": 0.0,
+      "Gain": 50.0,
+      "IsEnabled": false,
+      "Output": {
+        "Frequency": 55,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": false,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "BrakeFilter": 20,
+      "Filter": {
+        "GammaValue": 1.0,
+        "InputGain": 100.0,
+        "MinimumForce": 0,
+        "Threshold": 0,
+        "FilterType": "GammaFilter"
+      },
+      "ContainerId": "67b3f21b-a6d5-4bd9-810c-1e0e61889852",
+      "ContainerType": "WheelsLockContainer",
+      "Description": "Provide localized wheel slip and lock feedback under braking",
+      "AggregationMode": "Corners",
+      "FrontRearPan": 0.0,
+      "Gain": 83.333333333333371,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 50,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": true,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    },
+    {
+      "BrakeFilter": 10,
+      "Filter": {
+        "GammaValue": 1.0,
+        "InputGain": 100.0,
+        "MinimumForce": 0,
+        "Threshold": 0,
+        "FilterType": "GammaFilter"
+      },
+      "ThrottleFilter": 10,
+      "UseBrakeFilter": false,
+      "UseThrottleFilter": false,
+      "ContainerId": "575b1680-a478-4984-a2b5-7fc8580ac9b2",
+      "ContainerType": "WheelsSlipContainer",
+      "Description": "Provide localized wheel slip feedback",
+      "AggregationMode": "Corners",
+      "FrontRearPan": 0.0,
+      "Gain": 42.0,
+      "IsEnabled": true,
+      "Output": {
+        "Frequency": 50,
+        "UseHighFrequency": false,
+        "HighFrequency": 50,
+        "WhiteNoise": 10,
+        "UseWhiteNoise": false,
+        "EnableDurationModulation": false,
+        "DurationModulationValue": 34,
+        "FrequencyBasedOnPreFilter": false,
+        "Harmonics": 0,
+        "HoldMode": 1,
+        "AssignToChannelGroup": false,
+        "ChannelGroupName": "",
+        "PropertyName": null,
+        "ExportProperty": false,
+        "OutputType": "ToneOutput"
+      }
+    }
+  ],
+  "LastLoaded": "2019-09-24T15:27:44.4633019-05:00",
+  "Name": "Default profile",
+  "ProfileId": "e9cd9a79-7297-4d19-9ab6-d1e329f50a86",
+  "OutputMode": 1,
+  "GlobalGain": 50.0,
+  "UseProfileGain": false
+}
