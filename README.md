@@ -4,7 +4,7 @@ These configs have been sourced by multiple people in the community.
 
 # FanaLabs
 
-Profiles for multiple cars for the DD1 and DD2, they are matched by "specific output" as defined by Brion [here](https://members.iracing.com/jforum/posts/list/3648546.page)
+Profiles for multiple cars for the DD1 and DD2, they are matched by "specific output" as defined by Brion Sohn [here](https://members.iracing.com/jforum/posts/list/3648546.page)  These profiles were originally made by [Maurice Böschen on iRacing forums](https://members.iracing.com/jforum/posts/list/250/3648546.page#11745131)
 
 To use these copy them to `Users/[your username]/AppData/Local/Fanatec/FanaLab/settings/5.0`
 
