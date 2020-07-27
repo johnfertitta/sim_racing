@@ -9280,7 +9280,7 @@
           "ContainerId": "4ed33b37-36a1-49b2-89e1-555df955ae8f",
           "ContainerType": "GroupContainer",
           "Description": "Basic Spotter",
-          "IsEnabled": true
+          "IsEnabled": false
         },
         {
           "LedContainers": [
@@ -9291,8 +9291,8 @@
               "ClearBackgroundWhenActive": false,
               "LedContainers": [
                 {
-                  "StartColor": "128, 0, 128",
-                  "EndColor": "128, 0, 128",
+                  "StartColor": "Purple",
+                  "EndColor": "Purple",
                   "MaximumValue": 100.0,
                   "MinimumValue": 0.0,
                   "BlinkFormula": {
@@ -9304,7 +9304,7 @@
                   "ValueFormula": {
                     "Expression": "(1 - min(([PersistantTrackerPlugin.DriverBehind_00_Distance]/4), 1)) * 100"
                   },
-                  "LedCount": 20,
+                  "LedCount": 40,
                   "RightToLeft": false,
                   "GradientOnAll": false,
                   "ClearWhenOut": false,
@@ -9332,7 +9332,7 @@
                   "ValueFormula": {
                     "Expression": "(1 - min((abs([PersistantTrackerPlugin.DriverAhead_00_Distance])/4), 1)) * 100"
                   },
-                  "LedCount": 20,
+                  "LedCount": 40,
                   "RightToLeft": true,
                   "GradientOnAll": false,
                   "ClearWhenOut": false,
@@ -9340,7 +9340,7 @@
                   "FillAllLeds": false,
                   "BlinkDelay": 500,
                   "BlinkEnabled": false,
-                  "StartPosition": 21,
+                  "StartPosition": 40,
                   "ContainerId": "42204b30-3471-411a-8a9a-91b503cef813",
                   "ContainerType": "CustomGradientContainer",
                   "Description": "Driver Ahead",
@@ -9374,7 +9374,7 @@
                   "ValueFormula": {
                     "Expression": "(1 - min(([PersistantTrackerPlugin.DriverBehind_00_Distance]/4), 1)) * 100"
                   },
-                  "LedCount": 20,
+                  "LedCount": 40,
                   "RightToLeft": false,
                   "GradientOnAll": false,
                   "ClearWhenOut": false,
@@ -9402,7 +9402,7 @@
                   "ValueFormula": {
                     "Expression": "(1 - min((abs([PersistantTrackerPlugin.DriverAhead_00_Distance])/4), 1)) * 100"
                   },
-                  "LedCount": 20,
+                  "LedCount": 40,
                   "RightToLeft": true,
                   "GradientOnAll": false,
                   "ClearWhenOut": false,
@@ -9410,7 +9410,7 @@
                   "FillAllLeds": false,
                   "BlinkDelay": 500,
                   "BlinkEnabled": false,
-                  "StartPosition": 21,
+                  "StartPosition": 40,
                   "ContainerId": "42204b30-3471-411a-8a9a-91b503cef813",
                   "ContainerType": "CustomGradientContainer",
                   "Description": "Driver Ahead",
@@ -9418,7 +9418,7 @@
                 }
               ],
               "StackLeftToRight": false,
-              "StartPosition": 1,
+              "StartPosition": 41,
               "ContainerId": "534dede6-222d-40ce-9548-dc5c13e39e18",
               "ContainerType": "CustomConditionalGroupContainer",
               "Description": "Right Side",
