@@ -9286,7 +9286,7 @@
           "LedContainers": [
             {
               "TriggerFormula": {
-                "Expression": "in(isnull([DataCorePlugin.GameRawData.Telemetry.CarLeftRight],0),2,4,5) "
+                "Expression": "in(isnull([DataCorePlugin.GameRawData.Telemetry.CarLeftRight],0),2,4,5)"
               },
               "ClearBackgroundWhenActive": false,
               "LedContainers": [
@@ -9299,10 +9299,10 @@
                     "Expression": ""
                   },
                   "EnabledFormula": {
-                    "Expression": "([PersistantTrackerPlugin.DriverBehind_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverBehind_00_Distance])<7)"
+                    "Expression": "([PersistantTrackerPlugin.DriverBehind_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverBehind_00_Distance])<4)"
                   },
                   "ValueFormula": {
-                    "Expression": "1 - min(([PersistantTrackerPlugin.DriverBehind_00_Distance] / 7), 1)"
+                    "Expression": "1 - min(([PersistantTrackerPlugin.DriverBehind_00_Distance] / 4), 1)"
                   },
                   "LedCount": 40,
                   "RightToLeft": true,
@@ -9312,7 +9312,7 @@
                   "FillAllLeds": false,
                   "BlinkDelay": 500,
                   "BlinkEnabled": false,
-                  "StartPosition": 40,
+                  "StartPosition": 1,
                   "ContainerId": "33497292-1c74-40ac-b079-f119c0d39b89",
                   "ContainerType": "CustomGradientContainer",
                   "Description": "Driver Behind",
@@ -9327,10 +9327,10 @@
                     "Expression": ""
                   },
                   "EnabledFormula": {
-                    "Expression": "([PersistantTrackerPlugin.DriverAhead_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverAhead_00_Distance])<7)"
+                    "Expression": "([PersistantTrackerPlugin.DriverAhead_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverAhead_00_Distance])<4)"
                   },
                   "ValueFormula": {
-                    "Expression": "(1 - min((abs([PersistantTrackerPlugin.DriverAhead_00_Distance])/7), 1))"
+                    "Expression": "(1 - min((abs([PersistantTrackerPlugin.DriverAhead_00_Distance])/4), 1))"
                   },
                   "LedCount": 40,
                   "RightToLeft": false,
@@ -9363,26 +9363,26 @@
                 {
                   "StartColor": "Purple",
                   "EndColor": "Purple",
-                  "MaximumValue": 100.0,
+                  "MaximumValue": 1.0,
                   "MinimumValue": 0.0,
                   "BlinkFormula": {
                     "Expression": ""
                   },
                   "EnabledFormula": {
-                    "Expression": "([PersistantTrackerPlugin.DriverBehind_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverBehind_00_Distance])<7)"
+                    "Expression": "([PersistantTrackerPlugin.DriverBehind_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverBehind_00_Distance])<4)"
                   },
                   "ValueFormula": {
-                    "Expression": "1 - min(([PersistantTrackerPlugin.DriverBehind_00_Distance]/7), 1)"
+                    "Expression": "1 - min(([PersistantTrackerPlugin.DriverBehind_00_Distance]/4), 1)"
                   },
                   "LedCount": 40,
-                  "RightToLeft": true,
+                  "RightToLeft": false,
                   "GradientOnAll": false,
                   "ClearWhenOut": false,
                   "UseLedDimming": true,
                   "FillAllLeds": false,
                   "BlinkDelay": 500,
                   "BlinkEnabled": false,
-                  "StartPosition": 41,
+                  "StartPosition": 1,
                   "ContainerId": "33497292-1c74-40ac-b079-f119c0d39b89",
                   "ContainerType": "CustomGradientContainer",
                   "Description": "Driver Behind",
@@ -9391,19 +9391,19 @@
                 {
                   "StartColor": "Purple",
                   "EndColor": "Purple",
-                  "MaximumValue": 100.0,
+                  "MaximumValue": 1.0,
                   "MinimumValue": 0.0,
                   "BlinkFormula": {
                     "Expression": ""
                   },
                   "EnabledFormula": {
-                    "Expression": "([PersistantTrackerPlugin.DriverAhead_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverAhead_00_Distance])<7)"
+                    "Expression": "([PersistantTrackerPlugin.DriverAhead_00_Distance]!=0) \r\n\r\nand \r\n\r\n(abs([PersistantTrackerPlugin.DriverAhead_00_Distance])<4)"
                   },
                   "ValueFormula": {
-                    "Expression": "1 - min((abs([PersistantTrackerPlugin.DriverAhead_00_Distance])/7), 1)"
+                    "Expression": "1 - min((abs([PersistantTrackerPlugin.DriverAhead_00_Distance])/4), 1)"
                   },
                   "LedCount": 40,
-                  "RightToLeft": false,
+                  "RightToLeft": true,
                   "GradientOnAll": false,
                   "ClearWhenOut": false,
                   "UseLedDimming": true,
@@ -9442,7 +9442,7 @@
     }
   ],
   "GameCode": "IRacing",
-  "LastLoaded": "2020-07-28T20:08:01.2873652-04:00",
+  "LastLoaded": "2020-07-28T22:01:01.4455462-04:00",
   "Name": "iFlag",
   "ProfileId": "23de3322-7d79-4b72-80d1-4b2db0d4a2fc",
   "GlobalBrightness": 5.119999999999874,
