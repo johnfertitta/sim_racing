@@ -3,7 +3,8 @@
 I've decided to start archiving my FlyPT mover profiles to github so that I can freely make changes and still be able to revert to previous versions of the profiles if needed.  Also I believe it helps facilitate sharing.
 
 [@johnfertitta on Twitter](https://twitter.com/johnfertitta)
-[@fertitta on Discord](fertitta#3709)
+
+[@fertitta on Discord](https://discordapp.com/users/fertitta#3709)
 
 # My Rig #
 
