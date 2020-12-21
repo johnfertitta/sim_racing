@@ -3,18 +3,6 @@
   <MAIN>
     <Location>1005,425</Location>
   </MAIN>
-  <OPTIONS>
-    <chkMinimize>False</chkMinimize>
-    <chkHighPrecision>True</chkHighPrecision>
-    <nudCalculationRate>2</nudCalculationRate>
-    <nudFilterTime>2</nudFilterTime>
-    <nudSourceTime>5</nudSourceTime>
-    <nudOutputTime>5</nudOutputTime>
-    <sourceHotKey>Alt+O</sourceHotKey>
-    <outputHotKey>Alt+S</outputHotKey>
-    <increaseRigGainHotKey>Alt+I</increaseRigGainHotKey>
-    <decreaseRigGainHotKey>Alt+D</decreaseRigGainHotKey>
-  </OPTIONS>
   <SOURCE>
     <Type>Mover.Sources.MMF.IRacing</Type>
     <Name>SOURCE :: IRACING (MMF)</Name>
@@ -110,7 +98,7 @@
   <RIG>
     <Type>Mover.Rigs.Linear_3DOF_TL</Type>
     <Name>Rig :: TL 3DOF</Name>
-    <Location>-1561,306</Location>
+    <Location>284,466</Location>
     <Size>1352,582</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -132,16 +120,16 @@
       <NUDRollLimit>3</NUDRollLimit>
       <NUDTLHouseJointZ>-25</NUDTLHouseJointZ>
       <NUDCORZ>0</NUDCORZ>
-      <NUDTLRodJointY>-418</NUDTLRodJointY>
+      <NUDTLRodJointY>-444.5</NUDTLRodJointY>
       <NUDSurgeLimit>100</NUDSurgeLimit>
-      <NUDTLRodJointX>-152</NUDTLRodJointX>
+      <NUDTLRodJointX>-158.75</NUDTLRodJointX>
       <NUDCORY>0</NUDCORY>
       <NUDTLHouseJointX>355</NUDTLHouseJointX>
       <NUDHeaveLimit>25</NUDHeaveLimit>
-      <NUDTLHouseJointY>-368</NUDTLHouseJointY>
+      <NUDTLHouseJointY>-381.0</NUDTLHouseJointY>
       <NUDCORX>0</NUDCORX>
       <NUDTLRange>75</NUDTLRange>
-      <NUDTLAxis>406.4</NUDTLAxis>
+      <NUDTLAxis>685.8</NUDTLAxis>
       <NUDSwayDrive>0</NUDSwayDrive>
       <NUDPitchDrive>0</NUDPitchDrive>
       <NUDYawDrive>0</NUDYawDrive>
@@ -178,7 +166,9 @@
       <SHActuators.chkShowHide>True</SHActuators.chkShowHide>
       <CHKAutoGain>False</CHKAutoGain>
       <CHKCalculateSpeed>False</CHKCalculateSpeed>
-      <TVInputSelection />
+      <TVInputSelection>
+        <item>Motion Pose</item>
+      </TVInputSelection>
       <PNLActuatorsOutput.slider0>0;0</PNLActuatorsOutput.slider0>
       <PNLActuatorsOutput.slider1>0;0</PNLActuatorsOutput.slider1>
       <PNLActuatorsOutput.slider2>0;0</PNLActuatorsOutput.slider2>
@@ -726,11 +716,11 @@
   <Z_ORDER>
     <item>18</item>
     <item>7</item>
-    <item>1</item>
     <item>8</item>
     <item>11</item>
     <item>13</item>
     <item>19</item>
     <item>12</item>
+    <item>1</item>
   </Z_ORDER>
 </FLYPT_MOVER>

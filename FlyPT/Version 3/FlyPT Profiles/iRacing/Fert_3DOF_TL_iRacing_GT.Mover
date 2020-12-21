@@ -3,18 +3,6 @@
   <MAIN>
     <Location>1005,425</Location>
   </MAIN>
-  <OPTIONS>
-    <chkMinimize>False</chkMinimize>
-    <chkHighPrecision>True</chkHighPrecision>
-    <nudCalculationRate>2</nudCalculationRate>
-    <nudFilterTime>2</nudFilterTime>
-    <nudSourceTime>5</nudSourceTime>
-    <nudOutputTime>5</nudOutputTime>
-    <sourceHotKey>Alt+O</sourceHotKey>
-    <outputHotKey>Alt+S</outputHotKey>
-    <increaseRigGainHotKey>Alt+I</increaseRigGainHotKey>
-    <decreaseRigGainHotKey>Alt+D</decreaseRigGainHotKey>
-  </OPTIONS>
   <SOURCE>
     <Type>Mover.Sources.MMF.IRacing</Type>
     <Name>SOURCE :: IRACING (MMF)</Name>
@@ -38,7 +26,7 @@
     <Name>Motion Pose</Name>
     <Location>-2297,259</Location>
     <Size>1344,500</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
       <pnlPitch.nudPitchOutGain>0.35</pnlPitch.nudPitchOutGain>
@@ -110,7 +98,7 @@
   <RIG>
     <Type>Mover.Rigs.Linear_3DOF_TL</Type>
     <Name>Rig :: TL 3DOF</Name>
-    <Location>-1696,334</Location>
+    <Location>303,552</Location>
     <Size>1352,582</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -132,16 +120,16 @@
       <NUDRollLimit>3</NUDRollLimit>
       <NUDTLHouseJointZ>-25</NUDTLHouseJointZ>
       <NUDCORZ>0</NUDCORZ>
-      <NUDTLRodJointY>-418</NUDTLRodJointY>
+      <NUDTLRodJointY>-444.5</NUDTLRodJointY>
       <NUDSurgeLimit>100</NUDSurgeLimit>
-      <NUDTLRodJointX>-152</NUDTLRodJointX>
+      <NUDTLRodJointX>-158.75</NUDTLRodJointX>
       <NUDCORY>0</NUDCORY>
       <NUDTLHouseJointX>355</NUDTLHouseJointX>
       <NUDHeaveLimit>25</NUDHeaveLimit>
-      <NUDTLHouseJointY>-368</NUDTLHouseJointY>
+      <NUDTLHouseJointY>-381</NUDTLHouseJointY>
       <NUDCORX>0</NUDCORX>
       <NUDTLRange>75</NUDTLRange>
-      <NUDTLAxis>406.4</NUDTLAxis>
+      <NUDTLAxis>685.8</NUDTLAxis>
       <NUDSwayDrive>0</NUDSwayDrive>
       <NUDPitchDrive>0</NUDPitchDrive>
       <NUDYawDrive>0</NUDYawDrive>
@@ -185,7 +173,7 @@
       <PNLActuatorsOutput.slider1>-1.56920079182328;-1.56920079182328</PNLActuatorsOutput.slider1>
       <PNLActuatorsOutput.slider2>-1.56920079182328;-1.56920079182328</PNLActuatorsOutput.slider2>
       <PNLActuatorsOutput.slider3>5.05960218798464;5.05960218798464</PNLActuatorsOutput.slider3>
-      <PNLActuatorsOutput.slider4>-3.98202976086092;-3.98202976086092</PNLActuatorsOutput.slider4>
+      <PNLActuatorsOutput.slider4>-5.44916982992466;-5.44916982992466</PNLActuatorsOutput.slider4>
     </CONTROLS>
   </RIG>
   <DIRECT>
@@ -696,8 +684,8 @@
     <Size>585,503</Size>
     <Visible>True</Visible>
     <CONTROLS>
-      <NUDXRotation>53</NUDXRotation>
-      <NUDZRotation>417</NUDZRotation>
+      <NUDXRotation>78</NUDXRotation>
+      <NUDZRotation>361</NUDZRotation>
       <NUDDistance>2180</NUDDistance>
       <TXTUniqueName>18</TXTUniqueName>
       <TXTName>3D VIEWER :: ID5</TXTName>
@@ -726,13 +714,13 @@
     </CONTROLS>
   </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>18</item>
     <item>11</item>
     <item>13</item>
     <item>19</item>
     <item>8</item>
-    <item>1</item>
-    <item>12</item>
     <item>7</item>
+    <item>12</item>
+    <item>18</item>
+    <item>1</item>
   </Z_ORDER>
 </FLYPT_MOVER>

@@ -21,196 +21,6 @@
       <CHKAutoConnect>True</CHKAutoConnect>
     </CONTROLS>
   </SOURCE>
-  <RIG>
-    <Type>Mover.Rigs.Linear_3DOF_TL</Type>
-    <Name>Rig :: TL 3DOF</Name>
-    <Location>-1561,306</Location>
-    <Size>1352,582</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
-      <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
-      <PNLActuatorsOutput.nudDefault2>0</PNLActuatorsOutput.nudDefault2>
-      <PNLActuatorsOutput.nudDefault3>0</PNLActuatorsOutput.nudDefault3>
-      <PNLActuatorsOutput.nudDefault4>0</PNLActuatorsOutput.nudDefault4>
-      <NUDRigL2>1066.8</NUDRigL2>
-      <NUDRigL1>736.6</NUDRigL1>
-      <NUDRange>75</NUDRange>
-      <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
-      <NUDGain>1</NUDGain>
-      <NUDScale>1</NUDScale>
-      <NUDSwayLimit>0</NUDSwayLimit>
-      <NUDPitchLimit>5</NUDPitchLimit>
-      <NUDYawLimit>5</NUDYawLimit>
-      <NUDTLRodJointZ>-25</NUDTLRodJointZ>
-      <NUDRollLimit>3</NUDRollLimit>
-      <NUDTLHouseJointZ>-25</NUDTLHouseJointZ>
-      <NUDCORZ>0</NUDCORZ>
-      <NUDTLRodJointY>-418</NUDTLRodJointY>
-      <NUDSurgeLimit>100</NUDSurgeLimit>
-      <NUDTLRodJointX>-152</NUDTLRodJointX>
-      <NUDCORY>0</NUDCORY>
-      <NUDTLHouseJointX>355</NUDTLHouseJointX>
-      <NUDHeaveLimit>25</NUDHeaveLimit>
-      <NUDTLHouseJointY>-368</NUDTLHouseJointY>
-      <NUDCORX>0</NUDCORX>
-      <NUDTLRange>75</NUDTLRange>
-      <NUDTLAxis>406.4</NUDTLAxis>
-      <NUDSwayDrive>0</NUDSwayDrive>
-      <NUDPitchDrive>0</NUDPitchDrive>
-      <NUDYawDrive>0</NUDYawDrive>
-      <NUDRollDrive>0</NUDRollDrive>
-      <NUDSurgeDrive>0</NUDSurgeDrive>
-      <NUDHeaveDrive>0</NUDHeaveDrive>
-      <NUDD>0</NUDD>
-      <NUDI>0</NUDI>
-      <NUDP>1</NUDP>
-      <NUDMaximumSpeed>127</NUDMaximumSpeed>
-      <NUDSpeedBits>8</NUDSpeedBits>
-      <PNLActuatorsOutput.txtKey0>FR</PNLActuatorsOutput.txtKey0>
-      <PNLActuatorsOutput.txtSpeedKey0>SpeedFR</PNLActuatorsOutput.txtSpeedKey0>
-      <PNLActuatorsOutput.txtKey1>RR</PNLActuatorsOutput.txtKey1>
-      <PNLActuatorsOutput.txtSpeedKey1>SpeedRR</PNLActuatorsOutput.txtSpeedKey1>
-      <PNLActuatorsOutput.txtKey2>RL</PNLActuatorsOutput.txtKey2>
-      <PNLActuatorsOutput.txtSpeedKey2>SpeedRL</PNLActuatorsOutput.txtSpeedKey2>
-      <PNLActuatorsOutput.txtKey3>FL</PNLActuatorsOutput.txtKey3>
-      <PNLActuatorsOutput.txtSpeedKey3>SpeedFL</PNLActuatorsOutput.txtSpeedKey3>
-      <PNLActuatorsOutput.txtKey4>TL</PNLActuatorsOutput.txtKey4>
-      <PNLActuatorsOutput.txtSpeedKey4>SpeedTL</PNLActuatorsOutput.txtSpeedKey4>
-      <AFCActuatorsFilter.txtFilterText>VALUE</AFCActuatorsFilter.txtFilterText>
-      <AFCLinearDOFFilter.txtFilterText>VALUE</AFCLinearDOFFilter.txtFilterText>
-      <AFCRotationDOFFilter.txtFilterText>VALUE</AFCRotationDOFFilter.txtFilterText>
-      <TXTUniqueName>1</TXTUniqueName>
-      <TXTPitchKey>PosePitch</TXTPitchKey>
-      <TXTRollKey>PoseRoll</TXTRollKey>
-      <TXTYawKey>PoseYaw</TXTYawKey>
-      <TXTHeaveKey>PoseHeave</TXTHeaveKey>
-      <TXTSurgeKey>PoseSurge</TXTSurgeKey>
-      <TXTSwayKey>PoseSway</TXTSwayKey>
-      <TXTName>Rig :: TL 3DOF</TXTName>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <SHActuators.chkShowHide>True</SHActuators.chkShowHide>
-      <CHKAutoGain>False</CHKAutoGain>
-      <CHKCalculateSpeed>False</CHKCalculateSpeed>
-      <TVInputSelection />
-      <PNLActuatorsOutput.slider0>0;0</PNLActuatorsOutput.slider0>
-      <PNLActuatorsOutput.slider1>0;0</PNLActuatorsOutput.slider1>
-      <PNLActuatorsOutput.slider2>0;0</PNLActuatorsOutput.slider2>
-      <PNLActuatorsOutput.slider3>0;0</PNLActuatorsOutput.slider3>
-      <PNLActuatorsOutput.slider4>0;0</PNLActuatorsOutput.slider4>
-    </CONTROLS>
-  </RIG>
-  <OUTPUT>
-    <Type>Mover.Outputs.Thanos</Type>
-    <Name>OUTPUT :: THANOS</Name>
-    <Location>90,707</Location>
-    <Size>1257,372</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <PNLHardware.NUDActuatorLimits>1</PNLHardware.NUDActuatorLimits>
-      <PNLHardware.NUDStandbyTimeout>5</PNLHardware.NUDStandbyTimeout>
-      <PNLHardware.NUDStandbySpeed>24</PNLHardware.NUDStandbySpeed>
-      <PNLHardware.NUDStandbyPosition>127</PNLHardware.NUDStandbyPosition>
-      <PNLHardware.NUDParkTimeout>5</PNLHardware.NUDParkTimeout>
-      <PNLHardware.NUDParkSpeed>10</PNLHardware.NUDParkSpeed>
-      <PNLHardware.NUDParkPosition>1</PNLHardware.NUDParkPosition>
-      <PNLHardware.NUDNumberOfMotors>6</PNLHardware.NUDNumberOfMotors>
-      <PNLHardware.NUDFilterLevel>0</PNLHardware.NUDFilterLevel>
-      <PNLHardware.NUDTLSpikeFactor>127</PNLHardware.NUDTLSpikeFactor>
-      <PNLHardware.NUDSpikeFactor>127</PNLHardware.NUDSpikeFactor>
-      <PNLHardware.NUDSpikeRange>127</PNLHardware.NUDSpikeRange>
-      <NUDInterval>1</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
-      <NUDStartTime>0</NUDStartTime>
-      <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
-      <TXTStartString></TXTStartString>
-      <TXTUniqueName>7</TXTUniqueName>
-      <TXTInputString></TXTInputString>
-      <TXTName>OUTPUT :: THANOS</TXTName>
-      <SHHardware.chkShowHide>True</SHHardware.chkShowHide>
-      <PNLHardware.CHKUseSettings>False</PNLHardware.CHKUseSettings>
-      <PNLHardware.CHKUseThanosTLSpikeFilter>True</PNLHardware.CHKUseThanosTLSpikeFilter>
-      <PNLHardware.CHKUseThanosSpikeFilter>True</PNLHardware.CHKUseThanosSpikeFilter>
-      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <CHKAutoConnect>False</CHKAutoConnect>
-      <PNLHardware.DDLKillSwitchMode>1 - Park/Standby</PNLHardware.DDLKillSwitchMode>
-      <PNLHardware.DDLDisableParkType>3 - 4 DOF + TL</PNLHardware.DDLDisableParkType>
-      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
-      <DDLActuator8>None</DDLActuator8>
-      <DDLActuator7>None</DDLActuator7>
-      <DDLActuator6>None</DDLActuator6>
-      <DDLActuator5>&lt;TL&gt;</DDLActuator5>
-      <DDLActuator4>&lt;RR&gt;</DDLActuator4>
-      <DDLActuator3>&lt;FR&gt;</DDLActuator3>
-      <DDLActuator2>&lt;FL&gt;</DDLActuator2>
-      <DDLActuator1>&lt;RL&gt;</DDLActuator1>
-      <DDLPort>COM5</DDLPort>
-      <DDLRig>None</DDLRig>
-      <TVInputSelection />
-    </CONTROLS>
-  </OUTPUT>
-  <OUTPUT>
-    <Type>Mover.Outputs.Memory</Type>
-    <Name>OUTPUT :: MMF</Name>
-    <Location>707,842</Location>
-    <Size>870,420</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDInterval>2</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
-      <NUDStartTime>0</NUDStartTime>
-      <TXTMMFName>motionRigPose</TXTMMFName>
-      <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;PoseSway&gt;&lt;PoseSurge&gt;&lt;PoseHeave&gt;&lt;PoseYaw&gt;&lt;PoseRoll&gt;&lt;PosePitch&gt;</TXTSendString>
-      <TXTStartString></TXTStartString>
-      <TXTUniqueName>8</TXTUniqueName>
-      <TXTInputString></TXTInputString>
-      <TXTName>OUTPUT :: MMF</TXTName>
-      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <CHKAutoConnect>False</CHKAutoConnect>
-      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
-      <TVInputSelection />
-    </CONTROLS>
-  </OUTPUT>
-  <VIEWER_3D>
-    <Type>Mover.Viewers.View3D</Type>
-    <Name>3D VIEWER :: ID5</Name>
-    <Location>391,114</Location>
-    <Size>585,503</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <NUDXRotation>53</NUDXRotation>
-      <NUDZRotation>417</NUDZRotation>
-      <NUDDistance>2180</NUDDistance>
-      <TXTUniqueName>18</TXTUniqueName>
-      <TXTName>3D VIEWER :: ID5</TXTName>
-      <DDLProjection>Perspective</DDLProjection>
-      <ddlRigs>Rig :: TL 3DOF</ddlRigs>
-    </CONTROLS>
-  </VIEWER_3D>
-  <VIEWER_GRAPHIC>
-    <Type>Mover.Viewers.ViewGraphics</Type>
-    <Name>GRAPHICS VIEWER :: ID10</Name>
-    <Location>-1721,207</Location>
-    <Size>882,626</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <nudHScale>33.323</nudHScale>
-      <nudVScale>1</nudVScale>
-      <TXTUniqueName>19</TXTUniqueName>
-      <TXTName>GRAPHICS VIEWER :: ID10</TXTName>
-      <shInputSelection.chkShowHide>True</shInputSelection.chkShowHide>
-      <tvInputSelection>
-        <item>SOURCE :: IRACING (MMF).Lateral speed</item>
-        <item>SOURCE :: IRACING (MMF).Lateral acceleration</item>
-        <item>SOURCE :: IRACING (MMF).Yaw speed</item>
-        <item>SOURCE :: IRACING (MMF).Yaw acceleration</item>
-      </tvInputSelection>
-    </CONTROLS>
-  </VIEWER_GRAPHIC>
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
@@ -285,6 +95,85 @@
       <pnlSway.hsSwayInOut>0;0</pnlSway.hsSwayInOut>
     </CONTROLS>
   </POSE>
+  <RIG>
+    <Type>Mover.Rigs.Linear_3DOF_TL</Type>
+    <Name>Rig :: TL 3DOF</Name>
+    <Location>342,618</Location>
+    <Size>1352,582</Size>
+    <Visible>True</Visible>
+    <CONTROLS>
+      <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
+      <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
+      <PNLActuatorsOutput.nudDefault2>0</PNLActuatorsOutput.nudDefault2>
+      <PNLActuatorsOutput.nudDefault3>0</PNLActuatorsOutput.nudDefault3>
+      <PNLActuatorsOutput.nudDefault4>0</PNLActuatorsOutput.nudDefault4>
+      <NUDRigL2>1066.8</NUDRigL2>
+      <NUDRigL1>736.6</NUDRigL1>
+      <NUDRange>75</NUDRange>
+      <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
+      <NUDGain>1</NUDGain>
+      <NUDScale>1</NUDScale>
+      <NUDSwayLimit>0</NUDSwayLimit>
+      <NUDPitchLimit>5</NUDPitchLimit>
+      <NUDYawLimit>5</NUDYawLimit>
+      <NUDTLRodJointZ>-25</NUDTLRodJointZ>
+      <NUDRollLimit>3</NUDRollLimit>
+      <NUDTLHouseJointZ>-25</NUDTLHouseJointZ>
+      <NUDCORZ>0</NUDCORZ>
+      <NUDTLRodJointY>-444.5</NUDTLRodJointY>
+      <NUDSurgeLimit>100</NUDSurgeLimit>
+      <NUDTLRodJointX>-158.750</NUDTLRodJointX>
+      <NUDCORY>0</NUDCORY>
+      <NUDTLHouseJointX>355</NUDTLHouseJointX>
+      <NUDHeaveLimit>25</NUDHeaveLimit>
+      <NUDTLHouseJointY>-381.0</NUDTLHouseJointY>
+      <NUDCORX>0</NUDCORX>
+      <NUDTLRange>75</NUDTLRange>
+      <NUDTLAxis>685.8</NUDTLAxis>
+      <NUDSwayDrive>0</NUDSwayDrive>
+      <NUDPitchDrive>0</NUDPitchDrive>
+      <NUDYawDrive>0</NUDYawDrive>
+      <NUDRollDrive>0</NUDRollDrive>
+      <NUDSurgeDrive>0</NUDSurgeDrive>
+      <NUDHeaveDrive>0</NUDHeaveDrive>
+      <NUDD>0</NUDD>
+      <NUDI>0</NUDI>
+      <NUDP>1</NUDP>
+      <NUDMaximumSpeed>127</NUDMaximumSpeed>
+      <NUDSpeedBits>8</NUDSpeedBits>
+      <PNLActuatorsOutput.txtKey0>FR</PNLActuatorsOutput.txtKey0>
+      <PNLActuatorsOutput.txtSpeedKey0>SpeedFR</PNLActuatorsOutput.txtSpeedKey0>
+      <PNLActuatorsOutput.txtKey1>RR</PNLActuatorsOutput.txtKey1>
+      <PNLActuatorsOutput.txtSpeedKey1>SpeedRR</PNLActuatorsOutput.txtSpeedKey1>
+      <PNLActuatorsOutput.txtKey2>RL</PNLActuatorsOutput.txtKey2>
+      <PNLActuatorsOutput.txtSpeedKey2>SpeedRL</PNLActuatorsOutput.txtSpeedKey2>
+      <PNLActuatorsOutput.txtKey3>FL</PNLActuatorsOutput.txtKey3>
+      <PNLActuatorsOutput.txtSpeedKey3>SpeedFL</PNLActuatorsOutput.txtSpeedKey3>
+      <PNLActuatorsOutput.txtKey4>TL</PNLActuatorsOutput.txtKey4>
+      <PNLActuatorsOutput.txtSpeedKey4>SpeedTL</PNLActuatorsOutput.txtSpeedKey4>
+      <AFCActuatorsFilter.txtFilterText>VALUE</AFCActuatorsFilter.txtFilterText>
+      <AFCLinearDOFFilter.txtFilterText>VALUE</AFCLinearDOFFilter.txtFilterText>
+      <AFCRotationDOFFilter.txtFilterText>VALUE</AFCRotationDOFFilter.txtFilterText>
+      <TXTUniqueName>1</TXTUniqueName>
+      <TXTPitchKey>PosePitch</TXTPitchKey>
+      <TXTRollKey>PoseRoll</TXTRollKey>
+      <TXTYawKey>PoseYaw</TXTYawKey>
+      <TXTHeaveKey>PoseHeave</TXTHeaveKey>
+      <TXTSurgeKey>PoseSurge</TXTSurgeKey>
+      <TXTSwayKey>PoseSway</TXTSwayKey>
+      <TXTName>Rig :: TL 3DOF</TXTName>
+      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
+      <SHActuators.chkShowHide>True</SHActuators.chkShowHide>
+      <CHKAutoGain>False</CHKAutoGain>
+      <CHKCalculateSpeed>False</CHKCalculateSpeed>
+      <TVInputSelection />
+      <PNLActuatorsOutput.slider0>0;0</PNLActuatorsOutput.slider0>
+      <PNLActuatorsOutput.slider1>0;0</PNLActuatorsOutput.slider1>
+      <PNLActuatorsOutput.slider2>0;0</PNLActuatorsOutput.slider2>
+      <PNLActuatorsOutput.slider3>0;0</PNLActuatorsOutput.slider3>
+      <PNLActuatorsOutput.slider4>0;0</PNLActuatorsOutput.slider4>
+    </CONTROLS>
+  </RIG>
   <DIRECT>
     <Type>Mover.Directs.MultiDirect</Type>
     <Name>Belts</Name>
@@ -711,14 +600,125 @@
       <HSActuator>0;0</HSActuator>
     </CONTROLS>
   </DIRECT>
+  <OUTPUT>
+    <Type>Mover.Outputs.Thanos</Type>
+    <Name>OUTPUT :: THANOS</Name>
+    <Location>90,707</Location>
+    <Size>1257,372</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <PNLHardware.NUDActuatorLimits>1</PNLHardware.NUDActuatorLimits>
+      <PNLHardware.NUDStandbyTimeout>5</PNLHardware.NUDStandbyTimeout>
+      <PNLHardware.NUDStandbySpeed>24</PNLHardware.NUDStandbySpeed>
+      <PNLHardware.NUDStandbyPosition>127</PNLHardware.NUDStandbyPosition>
+      <PNLHardware.NUDParkTimeout>5</PNLHardware.NUDParkTimeout>
+      <PNLHardware.NUDParkSpeed>10</PNLHardware.NUDParkSpeed>
+      <PNLHardware.NUDParkPosition>1</PNLHardware.NUDParkPosition>
+      <PNLHardware.NUDNumberOfMotors>6</PNLHardware.NUDNumberOfMotors>
+      <PNLHardware.NUDFilterLevel>0</PNLHardware.NUDFilterLevel>
+      <PNLHardware.NUDTLSpikeFactor>127</PNLHardware.NUDTLSpikeFactor>
+      <PNLHardware.NUDSpikeFactor>127</PNLHardware.NUDSpikeFactor>
+      <PNLHardware.NUDSpikeRange>127</PNLHardware.NUDSpikeRange>
+      <NUDInterval>1</NUDInterval>
+      <NUDStopTime>0</NUDStopTime>
+      <NUDStartTime>0</NUDStartTime>
+      <TXTStopString></TXTStopString>
+      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
+      <TXTStartString></TXTStartString>
+      <TXTUniqueName>7</TXTUniqueName>
+      <TXTInputString></TXTInputString>
+      <TXTName>OUTPUT :: THANOS</TXTName>
+      <SHHardware.chkShowHide>True</SHHardware.chkShowHide>
+      <PNLHardware.CHKUseSettings>False</PNLHardware.CHKUseSettings>
+      <PNLHardware.CHKUseThanosTLSpikeFilter>True</PNLHardware.CHKUseThanosTLSpikeFilter>
+      <PNLHardware.CHKUseThanosSpikeFilter>True</PNLHardware.CHKUseThanosSpikeFilter>
+      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
+      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
+      <CHKAutoConnect>False</CHKAutoConnect>
+      <PNLHardware.DDLKillSwitchMode>1 - Park/Standby</PNLHardware.DDLKillSwitchMode>
+      <PNLHardware.DDLDisableParkType>3 - 4 DOF + TL</PNLHardware.DDLDisableParkType>
+      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
+      <DDLActuator8>None</DDLActuator8>
+      <DDLActuator7>None</DDLActuator7>
+      <DDLActuator6>None</DDLActuator6>
+      <DDLActuator5>&lt;TL&gt;</DDLActuator5>
+      <DDLActuator4>&lt;RR&gt;</DDLActuator4>
+      <DDLActuator3>&lt;FR&gt;</DDLActuator3>
+      <DDLActuator2>&lt;FL&gt;</DDLActuator2>
+      <DDLActuator1>&lt;RL&gt;</DDLActuator1>
+      <DDLPort>COM5</DDLPort>
+      <DDLRig>None</DDLRig>
+      <TVInputSelection />
+    </CONTROLS>
+  </OUTPUT>
+  <OUTPUT>
+    <Type>Mover.Outputs.Memory</Type>
+    <Name>OUTPUT :: MMF</Name>
+    <Location>707,842</Location>
+    <Size>870,420</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <NUDInterval>2</NUDInterval>
+      <NUDStopTime>0</NUDStopTime>
+      <NUDStartTime>0</NUDStartTime>
+      <TXTMMFName>motionRigPose</TXTMMFName>
+      <TXTStopString></TXTStopString>
+      <TXTSendString>&lt;PoseSway&gt;&lt;PoseSurge&gt;&lt;PoseHeave&gt;&lt;PoseYaw&gt;&lt;PoseRoll&gt;&lt;PosePitch&gt;</TXTSendString>
+      <TXTStartString></TXTStartString>
+      <TXTUniqueName>8</TXTUniqueName>
+      <TXTInputString></TXTInputString>
+      <TXTName>OUTPUT :: MMF</TXTName>
+      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
+      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
+      <CHKAutoConnect>False</CHKAutoConnect>
+      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
+      <TVInputSelection />
+    </CONTROLS>
+  </OUTPUT>
+  <VIEWER_3D>
+    <Type>Mover.Viewers.View3D</Type>
+    <Name>3D VIEWER :: ID5</Name>
+    <Location>391,114</Location>
+    <Size>585,503</Size>
+    <Visible>True</Visible>
+    <CONTROLS>
+      <NUDXRotation>53</NUDXRotation>
+      <NUDZRotation>417</NUDZRotation>
+      <NUDDistance>2180</NUDDistance>
+      <TXTUniqueName>18</TXTUniqueName>
+      <TXTName>3D VIEWER :: ID5</TXTName>
+      <DDLProjection>Perspective</DDLProjection>
+      <ddlRigs>Rig :: TL 3DOF</ddlRigs>
+    </CONTROLS>
+  </VIEWER_3D>
+  <VIEWER_GRAPHIC>
+    <Type>Mover.Viewers.ViewGraphics</Type>
+    <Name>GRAPHICS VIEWER :: ID10</Name>
+    <Location>-1721,207</Location>
+    <Size>882,626</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <nudHScale>33.323</nudHScale>
+      <nudVScale>1</nudVScale>
+      <TXTUniqueName>19</TXTUniqueName>
+      <TXTName>GRAPHICS VIEWER :: ID10</TXTName>
+      <shInputSelection.chkShowHide>True</shInputSelection.chkShowHide>
+      <tvInputSelection>
+        <item>SOURCE :: IRACING (MMF).Lateral speed</item>
+        <item>SOURCE :: IRACING (MMF).Lateral acceleration</item>
+        <item>SOURCE :: IRACING (MMF).Yaw speed</item>
+        <item>SOURCE :: IRACING (MMF).Yaw acceleration</item>
+      </tvInputSelection>
+    </CONTROLS>
+  </VIEWER_GRAPHIC>
   <Z_ORDER>
     <item>18</item>
     <item>7</item>
-    <item>1</item>
     <item>8</item>
     <item>11</item>
     <item>19</item>
     <item>12</item>
     <item>13</item>
+    <item>1</item>
   </Z_ORDER>
 </FLYPT_MOVER>

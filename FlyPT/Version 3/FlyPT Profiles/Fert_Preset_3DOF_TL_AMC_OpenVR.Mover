@@ -1,20 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="3.3.3">
   <MAIN>
-    <Location>788,687</Location>
+    <Location>1005,425</Location>
   </MAIN>
-  <OPTIONS>
-    <chkMinimize>False</chkMinimize>
-    <chkHighPrecision>True</chkHighPrecision>
-    <nudCalculationRate>2</nudCalculationRate>
-    <nudFilterTime>2</nudFilterTime>
-    <nudSourceTime>5</nudSourceTime>
-    <nudOutputTime>5</nudOutputTime>
-    <sourceHotKey>Alt+O</sourceHotKey>
-    <outputHotKey>Alt+S</outputHotKey>
-    <increaseRigGainHotKey>Alt+I</increaseRigGainHotKey>
-    <decreaseRigGainHotKey>Alt+D</decreaseRigGainHotKey>
-  </OPTIONS>
   <SOURCE>
     <Type>Mover.Sources.MMF.IRacing</Type>
     <Name>SOURCE :: IRACING (MMF)</Name>
@@ -36,7 +24,7 @@
   <RIG>
     <Type>Mover.Rigs.Linear_3DOF_TL</Type>
     <Name>Rig :: TL 3DOF</Name>
-    <Location>-1561,306</Location>
+    <Location>-1693,306</Location>
     <Size>1352,582</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -58,16 +46,16 @@
       <NUDRollLimit>3</NUDRollLimit>
       <NUDTLHouseJointZ>-25</NUDTLHouseJointZ>
       <NUDCORZ>0</NUDCORZ>
-      <NUDTLRodJointY>-418</NUDTLRodJointY>
+      <NUDTLRodJointY>-444.5</NUDTLRodJointY>
       <NUDSurgeLimit>100</NUDSurgeLimit>
-      <NUDTLRodJointX>-152</NUDTLRodJointX>
+      <NUDTLRodJointX>-158.75</NUDTLRodJointX>
       <NUDCORY>0</NUDCORY>
       <NUDTLHouseJointX>355</NUDTLHouseJointX>
       <NUDHeaveLimit>25</NUDHeaveLimit>
-      <NUDTLHouseJointY>-368</NUDTLHouseJointY>
+      <NUDTLHouseJointY>-381.0</NUDTLHouseJointY>
       <NUDCORX>0</NUDCORX>
       <NUDTLRange>75</NUDTLRange>
-      <NUDTLAxis>406.4</NUDTLAxis>
+      <NUDTLAxis>685.8</NUDTLAxis>
       <NUDSwayDrive>0</NUDSwayDrive>
       <NUDPitchDrive>0</NUDPitchDrive>
       <NUDYawDrive>0</NUDYawDrive>
@@ -194,8 +182,8 @@
     <Size>585,503</Size>
     <Visible>True</Visible>
     <CONTROLS>
-      <NUDXRotation>53</NUDXRotation>
-      <NUDZRotation>417</NUDZRotation>
+      <NUDXRotation>44</NUDXRotation>
+      <NUDZRotation>415</NUDZRotation>
       <NUDDistance>2180</NUDDistance>
       <TXTUniqueName>18</TXTUniqueName>
       <TXTName>3D VIEWER :: ID5</TXTName>
@@ -224,11 +212,11 @@
     </CONTROLS>
   </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>18</item>
     <item>11</item>
     <item>7</item>
     <item>19</item>
-    <item>1</item>
     <item>8</item>
+    <item>18</item>
+    <item>1</item>
   </Z_ORDER>
 </FLYPT_MOVER>
