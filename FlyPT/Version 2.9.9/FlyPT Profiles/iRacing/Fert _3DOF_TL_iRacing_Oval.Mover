@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>957,667</Location>
+    <Location>802,755</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -11,9 +11,9 @@
     <nudSourceTime>5</nudSourceTime>
     <nudOutputTime>5</nudOutputTime>
     <sourceHotKey>Alt+O</sourceHotKey>
-    <outputHotKey>Alt+S</outputHotKey>
-    <increaseRigGainHotKey>Alt+I</increaseRigGainHotKey>
-    <decreaseRigGainHotKey>Alt+D</decreaseRigGainHotKey>
+    <outputHotKey>Ctrl+Alt+M</outputHotKey>
+    <increaseRigGainHotKey></increaseRigGainHotKey>
+    <decreaseRigGainHotKey></decreaseRigGainHotKey>
   </OPTIONS>
   <SOURCE>
     <Type>Mover.Sources.MMF.IRacing</Type>
@@ -40,31 +40,31 @@
     <Visible>True</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
-      <pnlPitch.nudPitchOutGain>0.5</pnlPitch.nudPitchOutGain>
+      <pnlPitch.nudPitchOutGain>0.25</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
-      <pnlPitch.nudPitchRange>7</pnlPitch.nudPitchRange>
+      <pnlPitch.nudPitchRange>6</pnlPitch.nudPitchRange>
       <pnlRoll.nudSwayInRollOutGain>0.7</pnlRoll.nudSwayInRollOutGain>
-      <pnlRoll.nudRollOutGain>0.4</pnlRoll.nudRollOutGain>
+      <pnlRoll.nudRollOutGain>0.2</pnlRoll.nudRollOutGain>
       <pnlRoll.nudRollInGain>1</pnlRoll.nudRollInGain>
-      <pnlRoll.nudRollRange>7</pnlRoll.nudRollRange>
+      <pnlRoll.nudRollRange>6</pnlRoll.nudRollRange>
       <pnlYaw.nudYawOutGain>1</pnlYaw.nudYawOutGain>
       <pnlYaw.nudYawInGain>1</pnlYaw.nudYawInGain>
       <pnlYaw.nudYawRange>180</pnlYaw.nudYawRange>
       <pnlHeave.nudHeaveOutGain>1</pnlHeave.nudHeaveOutGain>
       <pnlHeave.nudHeaveInGain>1</pnlHeave.nudHeaveInGain>
-      <pnlHeave.nudHeaveRange>100</pnlHeave.nudHeaveRange>
+      <pnlHeave.nudHeaveRange>25</pnlHeave.nudHeaveRange>
       <pnlSurge.nudSurgeOutGain>1</pnlSurge.nudSurgeOutGain>
       <pnlSurge.nudSurgeInGain>1</pnlSurge.nudSurgeInGain>
       <pnlSurge.nudSurgeRange>25</pnlSurge.nudSurgeRange>
       <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
       <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
       <pnlSway.nudSwayRange>15</pnlSway.nudSwayRange>
-      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);2.5;0.30)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
-      <pnlPitch.afcPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;125);1.5;1)</pnlPitch.afcPitchFilter.txtFilterText>
-      <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);2;0.300)</pnlRoll.afcSwayInRollFilter.txtFilterText>
-      <pnlRoll.afcRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;125);2;1)</pnlRoll.afcRollFilter.txtFilterText>
+      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);6;0.15)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
+      <pnlPitch.afcPitchFilter.txtFilterText>MALP(VALUE;125)</pnlPitch.afcPitchFilter.txtFilterText>
+      <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);6;0.300)</pnlRoll.afcSwayInRollFilter.txtFilterText>
+      <pnlRoll.afcRollFilter.txtFilterText>MALP(VALUE;125)</pnlRoll.afcRollFilter.txtFilterText>
       <pnlYaw.afcYawFilter.txtFilterText>DEMALP(LOGISTIC(CUBIC3(VALUE;0.000010);4.5;0.5);300)</pnlYaw.afcYawFilter.txtFilterText>
-      <pnlHeave.afcHeaveFilter.txtFilterText>LOGISTIC(MALP(VALUE;125);15;1)</pnlHeave.afcHeaveFilter.txtFilterText>
+      <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;125)</pnlHeave.afcHeaveFilter.txtFilterText>
       <pnlSurge.afcSurgeFilter.txtFilterText>VALUE</pnlSurge.afcSurgeFilter.txtFilterText>
       <pnlSway.afcSwayFilter.txtFilterText>VALUE</pnlSway.afcSwayFilter.txtFilterText>
       <TXTUniqueName>12</TXTUniqueName>
@@ -189,13 +189,13 @@
       <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
-      <NUDPitch>2.5</NUDPitch>
+      <NUDPitch>6</NUDPitch>
       <NUDYaw>0</NUDYaw>
       <NUDRoll>2</NUDRoll>
       <NUDCORZ>0</NUDCORZ>
       <NUDSurge>17.5</NUDSurge>
       <NUDCORY>0</NUDCORY>
-      <NUDHeave>30</NUDHeave>
+      <NUDHeave>25</NUDHeave>
       <NUDCORX>0</NUDCORX>
       <NUDSwayDrive>0</NUDSwayDrive>
       <NUDPitchDrive>0</NUDPitchDrive>
@@ -413,16 +413,102 @@
       </TVInputSelection>
     </CONTROLS>
   </RIG>
+  <OUTPUT>
+    <Type>Mover.Outputs.Thanos</Type>
+    <Name>OUTPUT :: THANOS</Name>
+    <Location>94,827</Location>
+    <Size>633,372</Size>
+    <Visible>True</Visible>
+    <CONTROLS>
+      <NUDInterval>1</NUDInterval>
+      <NUDStopTime>0</NUDStopTime>
+      <NUDStartTime>0</NUDStartTime>
+      <TXTStopString></TXTStopString>
+      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;Belts&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
+      <TXTStartString></TXTStartString>
+      <TXTUniqueName>10</TXTUniqueName>
+      <TXTName>OUTPUT :: THANOS</TXTName>
+      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
+      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
+      <CHKAutoConnect>False</CHKAutoConnect>
+      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
+      <DDLActuator8>None</DDLActuator8>
+      <DDLActuator7>None</DDLActuator7>
+      <DDLActuator6>&lt;Belts&gt;</DDLActuator6>
+      <DDLActuator5>&lt;TL&gt;</DDLActuator5>
+      <DDLActuator4>&lt;RR&gt;</DDLActuator4>
+      <DDLActuator3>&lt;FR&gt;</DDLActuator3>
+      <DDLActuator2>&lt;FL&gt;</DDLActuator2>
+      <DDLActuator1>&lt;RL&gt;</DDLActuator1>
+      <DDLPort>COM5</DDLPort>
+      <DDLRig>None</DDLRig>
+      <TVInputSelection />
+    </CONTROLS>
+  </OUTPUT>
+  <OUTPUT>
+    <Type>Mover.Outputs.Memory</Type>
+    <Name>OUTPUT :: MMF</Name>
+    <Location>92,805</Location>
+    <Size>570,420</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <NUDInterval>2</NUDInterval>
+      <NUDStopTime>0</NUDStopTime>
+      <NUDStartTime>0</NUDStartTime>
+      <TXTMMFName>motionRigPose</TXTMMFName>
+      <TXTStopString></TXTStopString>
+      <TXTSendString>&lt;MCPoseSway&gt;&lt;MCPoseSurge&gt;&lt;MCPoseHeave&gt;&lt;MCPoseYaw&gt;&lt;MCPoseRoll&gt;&lt;MCPosePitch&gt;</TXTSendString>
+      <TXTStartString></TXTStartString>
+      <TXTUniqueName>12</TXTUniqueName>
+      <TXTName>OUTPUT :: MMF</TXTName>
+      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
+      <SHInputSelection.chkShowHide>False</SHInputSelection.chkShowHide>
+      <CHKAutoConnect>False</CHKAutoConnect>
+      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
+      <TVInputSelection />
+    </CONTROLS>
+  </OUTPUT>
+  <VIEWER_3D>
+    <Type>Mover.Viewers.View3D</Type>
+    <Name>3D VIEWER :: ID5</Name>
+    <Location>3,458</Location>
+    <Size>585,504</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <NUDXRotation>25</NUDXRotation>
+      <NUDZRotation>429</NUDZRotation>
+      <NUDDistance>1700</NUDDistance>
+      <TXTUniqueName>18</TXTUniqueName>
+      <TXTName>3D VIEWER :: ID5</TXTName>
+      <DDLProjection>Perspective</DDLProjection>
+      <ddlRigs>3DOF Rig</ddlRigs>
+    </CONTROLS>
+  </VIEWER_3D>
+  <VIEWER_GRAPHIC>
+    <Type>Mover.Viewers.ViewGraphics</Type>
+    <Name>GRAPHICS VIEWER :: ID10</Name>
+    <Location>107,12</Location>
+    <Size>882,626</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <nudHScale>33.333</nudHScale>
+      <nudVScale>1</nudVScale>
+      <TXTUniqueName>19</TXTUniqueName>
+      <TXTName>GRAPHICS VIEWER :: ID10</TXTName>
+      <shInputSelection.chkShowHide>True</shInputSelection.chkShowHide>
+      <tvInputSelection />
+    </CONTROLS>
+  </VIEWER_GRAPHIC>
   <DIRECT>
     <Type>Mover.Directs.MultiDirect</Type>
     <Name>Belts</Name>
-    <Location>440,713</Location>
+    <Location>2043,441</Location>
     <Size>1033,517</Size>
     <Visible>True</Visible>
     <CONTROLS>
       <pnlValues.nudValueGain7>-1</pnlValues.nudValueGain7>
       <pnlValues.nudValueGain2>0.25</pnlValues.nudValueGain2>
-      <pnlValues.nudValueGain12>-0.7</pnlValues.nudValueGain12>
+      <pnlValues.nudValueGain12>-1.25</pnlValues.nudValueGain12>
       <pnlValues.nudValueGain0>1</pnlValues.nudValueGain0>
       <pnlValues.nudValueGain1>1</pnlValues.nudValueGain1>
       <pnlValues.nudValueGain3>1</pnlValues.nudValueGain3>
@@ -490,9 +576,9 @@
       <NUDTo>50</NUDTo>
       <NUDFrom>-50</NUDFrom>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
-      <pnlValues.afcValueFilter7.txtFilterText>LOGISTIC(DEMALP(MAXCROP(VALUE;2);150.000);100;1)</pnlValues.afcValueFilter7.txtFilterText>
-      <pnlValues.afcValueFilter2.txtFilterText>LOGISTIC(DEMALP(ABS(VALUE);300);100;1)</pnlValues.afcValueFilter2.txtFilterText>
-      <pnlValues.afcValueFilter12.txtFilterText>LOGISTIC(DEMALP(VALUE;300);30;1)</pnlValues.afcValueFilter12.txtFilterText>
+      <pnlValues.afcValueFilter7.txtFilterText>LOGISTIC(MALP(MAXCROP(VALUE;2);25);100;1)</pnlValues.afcValueFilter7.txtFilterText>
+      <pnlValues.afcValueFilter2.txtFilterText>LOGISTIC(MALP(ABS(VALUE);150);100;1)</pnlValues.afcValueFilter2.txtFilterText>
+      <pnlValues.afcValueFilter12.txtFilterText>LOGISTIC(MALP(VALUE;88);25;0.9)</pnlValues.afcValueFilter12.txtFilterText>
       <pnlValues.afcValueFilter0.txtFilterText>VALUE</pnlValues.afcValueFilter0.txtFilterText>
       <pnlValues.afcValueFilter1.txtFilterText>VALUE</pnlValues.afcValueFilter1.txtFilterText>
       <pnlValues.afcValueFilter3.txtFilterText>VALUE</pnlValues.afcValueFilter3.txtFilterText>
@@ -634,105 +720,19 @@
       </TVInputSelection>
     </CONTROLS>
   </DIRECT>
-  <OUTPUT>
-    <Type>Mover.Outputs.Thanos</Type>
-    <Name>OUTPUT :: THANOS</Name>
-    <Location>94,827</Location>
-    <Size>633,372</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <NUDInterval>1</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
-      <NUDStartTime>0</NUDStartTime>
-      <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;Belts&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
-      <TXTStartString></TXTStartString>
-      <TXTUniqueName>10</TXTUniqueName>
-      <TXTName>OUTPUT :: THANOS</TXTName>
-      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <CHKAutoConnect>False</CHKAutoConnect>
-      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
-      <DDLActuator8>None</DDLActuator8>
-      <DDLActuator7>None</DDLActuator7>
-      <DDLActuator6>&lt;Belts&gt;</DDLActuator6>
-      <DDLActuator5>&lt;TL&gt;</DDLActuator5>
-      <DDLActuator4>&lt;RR&gt;</DDLActuator4>
-      <DDLActuator3>&lt;FR&gt;</DDLActuator3>
-      <DDLActuator2>&lt;FL&gt;</DDLActuator2>
-      <DDLActuator1>&lt;RL&gt;</DDLActuator1>
-      <DDLPort>COM5</DDLPort>
-      <DDLRig>None</DDLRig>
-      <TVInputSelection />
-    </CONTROLS>
-  </OUTPUT>
-  <OUTPUT>
-    <Type>Mover.Outputs.Memory</Type>
-    <Name>OUTPUT :: MMF</Name>
-    <Location>92,805</Location>
-    <Size>570,420</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDInterval>2</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
-      <NUDStartTime>0</NUDStartTime>
-      <TXTMMFName>motionRigPose</TXTMMFName>
-      <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;MCPoseSway&gt;&lt;MCPoseSurge&gt;&lt;MCPoseHeave&gt;&lt;MCPoseYaw&gt;&lt;MCPoseRoll&gt;&lt;MCPosePitch&gt;</TXTSendString>
-      <TXTStartString></TXTStartString>
-      <TXTUniqueName>12</TXTUniqueName>
-      <TXTName>OUTPUT :: MMF</TXTName>
-      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
-      <SHInputSelection.chkShowHide>False</SHInputSelection.chkShowHide>
-      <CHKAutoConnect>False</CHKAutoConnect>
-      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
-      <TVInputSelection />
-    </CONTROLS>
-  </OUTPUT>
-  <VIEWER_3D>
-    <Type>Mover.Viewers.View3D</Type>
-    <Name>3D VIEWER :: ID5</Name>
-    <Location>3,458</Location>
-    <Size>585,504</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDXRotation>25</NUDXRotation>
-      <NUDZRotation>429</NUDZRotation>
-      <NUDDistance>1700</NUDDistance>
-      <TXTUniqueName>18</TXTUniqueName>
-      <TXTName>3D VIEWER :: ID5</TXTName>
-      <DDLProjection>Perspective</DDLProjection>
-      <ddlRigs>3DOF Rig</ddlRigs>
-    </CONTROLS>
-  </VIEWER_3D>
-  <VIEWER_GRAPHIC>
-    <Type>Mover.Viewers.ViewGraphics</Type>
-    <Name>GRAPHICS VIEWER :: ID10</Name>
-    <Location>107,12</Location>
-    <Size>882,626</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <nudHScale>33.333</nudHScale>
-      <nudVScale>1</nudVScale>
-      <TXTUniqueName>19</TXTUniqueName>
-      <TXTName>GRAPHICS VIEWER :: ID10</TXTName>
-      <shInputSelection.chkShowHide>True</shInputSelection.chkShowHide>
-      <tvInputSelection />
-    </CONTROLS>
-  </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>13</item>
-    <item>5</item>
-    <item>19</item>
+    <item>15</item>
+    <item>10</item>
+    <item>14</item>
+    <item>12</item>
+    <item>14</item>
+    <item>14</item>
     <item>11</item>
     <item>18</item>
+    <item>19</item>
+    <item>5</item>
+    <item>14</item>
     <item>12</item>
-    <item>12</item>
-    <item>15</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
-    <item>10</item>
+    <item>13</item>
   </Z_ORDER>
 </FLYPT_MOVER>

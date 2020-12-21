@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>-969,372</Location>
+    <Location>1130,513</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -35,7 +35,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>0,309</Location>
+    <Location>1496,509</Location>
     <Size>1344,450</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -59,9 +59,9 @@
       <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
       <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
       <pnlSway.nudSwayRange>20</pnlSway.nudSwayRange>
-      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);6;0.15)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
+      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);6;0.1)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
       <pnlPitch.afcPitchFilter.txtFilterText>MALP(VALUE;125)</pnlPitch.afcPitchFilter.txtFilterText>
-      <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);3;0.300)</pnlRoll.afcSwayInRollFilter.txtFilterText>
+      <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);3;0.15)</pnlRoll.afcSwayInRollFilter.txtFilterText>
       <pnlRoll.afcRollFilter.txtFilterText>MALP(VALUE;125)</pnlRoll.afcRollFilter.txtFilterText>
       <pnlYaw.afcYawFilter.txtFilterText>VALUE</pnlYaw.afcYawFilter.txtFilterText>
       <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;125)</pnlHeave.afcHeaveFilter.txtFilterText>
@@ -639,7 +639,7 @@
     <Name>OUTPUT :: THANOS</Name>
     <Location>3,827</Location>
     <Size>633,372</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
       <NUDInterval>1</NUDInterval>
       <NUDStopTime>0</NUDStopTime>
@@ -721,18 +721,18 @@
     </CONTROLS>
   </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>12</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
     <item>5</item>
     <item>15</item>
     <item>11</item>
-    <item>14</item>
     <item>13</item>
-    <item>10</item>
-    <item>12</item>
     <item>18</item>
     <item>19</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>12</item>
+    <item>12</item>
+    <item>10</item>
   </Z_ORDER>
 </FLYPT_MOVER>

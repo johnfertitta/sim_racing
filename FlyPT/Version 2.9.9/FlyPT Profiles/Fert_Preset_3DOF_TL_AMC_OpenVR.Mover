@@ -10,10 +10,10 @@
     <nudFilterTime>2</nudFilterTime>
     <nudSourceTime>5</nudSourceTime>
     <nudOutputTime>5</nudOutputTime>
-    <sourceHotKey>Alt+O</sourceHotKey>
-    <outputHotKey>Alt+S</outputHotKey>
-    <increaseRigGainHotKey>Alt+I</increaseRigGainHotKey>
-    <decreaseRigGainHotKey>Alt+D</decreaseRigGainHotKey>
+    <sourceHotKey>Ctrl+Alt+O</sourceHotKey>
+    <outputHotKey>Ctrl+Alt+M</outputHotKey>
+    <increaseRigGainHotKey></increaseRigGainHotKey>
+    <decreaseRigGainHotKey></decreaseRigGainHotKey>
   </OPTIONS>
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
