@@ -92,26 +92,6 @@
     </CONTROLS>
   </POSE>
   <POSE>
-    <Type>Mover.Poses.Suspension</Type>
-    <Name>Suspension Pose</Name>
-    <Location>2,713</Location>
-    <Size>800,550</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDWheelbase>2690</NUDWheelbase>
-      <NUDTrack>1700</NUDTrack>
-      <AFCFilter.txtFilterText>GAIN(MALP(SUB(VALUE;30);50);0.3)</AFCFilter.txtFilterText>
-      <TXTUniqueName>5</TXTUniqueName>
-      <TXTName>Suspension Pose</TXTName>
-      <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <DDLInputType>Suspension travel position (values shown in mm)</DDLInputType>
-      <TVInputSelection>
-        <item>SOURCE :: IRACING (MMF)</item>
-      </TVInputSelection>
-    </CONTROLS>
-  </POSE>
-  <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
     <Location>51,634</Location>
@@ -165,25 +145,6 @@
       <pnlHeave.ddlHeaveValue>Vertical acceleration (m/s²)</pnlHeave.ddlHeaveValue>
       <pnlSurge.ddlSurgeValue>Longitudinal acceleration (m/s²)</pnlSurge.ddlSurgeValue>
       <pnlSway.ddlSwayValue>Lateral acceleration (m/s²)</pnlSway.ddlSwayValue>
-      <TVInputSelection>
-        <item>SOURCE :: IRACING (MMF)</item>
-      </TVInputSelection>
-    </CONTROLS>
-  </POSE>
-  <POSE>
-    <Type>Mover.Poses.AdvancedDOFFromValue</Type>
-    <Name>POSE :: FROM GEAR SHIFT</Name>
-    <Location>15,511</Location>
-    <Size>800,377</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <afcFilter.txtFilterText>GAIN(EMAHP(SUB(VALUE;10);100);0.035)</afcFilter.txtFilterText>
-      <TXTUniqueName>6</TXTUniqueName>
-      <TXTName>POSE :: FROM GEAR SHIFT</TXTName>
-      <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <ddlDOF>Pitch</ddlDOF>
-      <ddlFromValue>Gear</ddlFromValue>
       <TVInputSelection>
         <item>SOURCE :: IRACING (MMF)</item>
       </TVInputSelection>
@@ -746,13 +707,11 @@
   <Z_ORDER>
     <item>11</item>
     <item>15</item>
-    <item>5</item>
     <item>13</item>
     <item>14</item>
     <item>14</item>
     <item>14</item>
     <item>14</item>
-    <item>6</item>
     <item>12</item>
     <item>12</item>
     <item>18</item>

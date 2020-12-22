@@ -92,26 +92,6 @@
     </CONTROLS>
   </POSE>
   <POSE>
-    <Type>Mover.Poses.Suspension</Type>
-    <Name>Suspension Pose</Name>
-    <Location>70,425</Location>
-    <Size>800,550</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDWheelbase>2690</NUDWheelbase>
-      <NUDTrack>1700</NUDTrack>
-      <AFCFilter.txtFilterText>GAIN(MALP(SUB(VALUE;0);50);0.6)</AFCFilter.txtFilterText>
-      <TXTUniqueName>5</TXTUniqueName>
-      <TXTName>Suspension Pose</TXTName>
-      <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <DDLInputType>Suspension travel position (values shown in mm)</DDLInputType>
-      <TVInputSelection>
-        <item>SOURCE :: IRACING (MMF)</item>
-      </TVInputSelection>
-    </CONTROLS>
-  </POSE>
-  <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
     <Location>608,475</Location>
@@ -291,7 +271,6 @@
       <CHKStayLastPossiblePose>False</CHKStayLastPossiblePose>
       <TVInputSelection>
         <item>Motion Pose</item>
-        <item>Suspension Pose</item>
       </TVInputSelection>
     </CONTROLS>
   </RIG>
@@ -413,96 +392,10 @@
       </TVInputSelection>
     </CONTROLS>
   </RIG>
-  <OUTPUT>
-    <Type>Mover.Outputs.Thanos</Type>
-    <Name>OUTPUT :: THANOS</Name>
-    <Location>94,827</Location>
-    <Size>633,372</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <NUDInterval>1</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
-      <NUDStartTime>0</NUDStartTime>
-      <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;Belts&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
-      <TXTStartString></TXTStartString>
-      <TXTUniqueName>10</TXTUniqueName>
-      <TXTName>OUTPUT :: THANOS</TXTName>
-      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <CHKAutoConnect>False</CHKAutoConnect>
-      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
-      <DDLActuator8>None</DDLActuator8>
-      <DDLActuator7>None</DDLActuator7>
-      <DDLActuator6>&lt;Belts&gt;</DDLActuator6>
-      <DDLActuator5>&lt;TL&gt;</DDLActuator5>
-      <DDLActuator4>&lt;RR&gt;</DDLActuator4>
-      <DDLActuator3>&lt;FR&gt;</DDLActuator3>
-      <DDLActuator2>&lt;FL&gt;</DDLActuator2>
-      <DDLActuator1>&lt;RL&gt;</DDLActuator1>
-      <DDLPort>COM5</DDLPort>
-      <DDLRig>None</DDLRig>
-      <TVInputSelection />
-    </CONTROLS>
-  </OUTPUT>
-  <OUTPUT>
-    <Type>Mover.Outputs.Memory</Type>
-    <Name>OUTPUT :: MMF</Name>
-    <Location>92,805</Location>
-    <Size>570,420</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDInterval>2</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
-      <NUDStartTime>0</NUDStartTime>
-      <TXTMMFName>motionRigPose</TXTMMFName>
-      <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;MCPoseSway&gt;&lt;MCPoseSurge&gt;&lt;MCPoseHeave&gt;&lt;MCPoseYaw&gt;&lt;MCPoseRoll&gt;&lt;MCPosePitch&gt;</TXTSendString>
-      <TXTStartString></TXTStartString>
-      <TXTUniqueName>12</TXTUniqueName>
-      <TXTName>OUTPUT :: MMF</TXTName>
-      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
-      <SHInputSelection.chkShowHide>False</SHInputSelection.chkShowHide>
-      <CHKAutoConnect>False</CHKAutoConnect>
-      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
-      <TVInputSelection />
-    </CONTROLS>
-  </OUTPUT>
-  <VIEWER_3D>
-    <Type>Mover.Viewers.View3D</Type>
-    <Name>3D VIEWER :: ID5</Name>
-    <Location>3,458</Location>
-    <Size>585,504</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDXRotation>25</NUDXRotation>
-      <NUDZRotation>429</NUDZRotation>
-      <NUDDistance>1700</NUDDistance>
-      <TXTUniqueName>18</TXTUniqueName>
-      <TXTName>3D VIEWER :: ID5</TXTName>
-      <DDLProjection>Perspective</DDLProjection>
-      <ddlRigs>3DOF Rig</ddlRigs>
-    </CONTROLS>
-  </VIEWER_3D>
-  <VIEWER_GRAPHIC>
-    <Type>Mover.Viewers.ViewGraphics</Type>
-    <Name>GRAPHICS VIEWER :: ID10</Name>
-    <Location>107,12</Location>
-    <Size>882,626</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <nudHScale>33.333</nudHScale>
-      <nudVScale>1</nudVScale>
-      <TXTUniqueName>19</TXTUniqueName>
-      <TXTName>GRAPHICS VIEWER :: ID10</TXTName>
-      <shInputSelection.chkShowHide>True</shInputSelection.chkShowHide>
-      <tvInputSelection />
-    </CONTROLS>
-  </VIEWER_GRAPHIC>
   <DIRECT>
     <Type>Mover.Directs.MultiDirect</Type>
     <Name>Belts</Name>
-    <Location>2043,441</Location>
+    <Location>1527,441</Location>
     <Size>1033,517</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -720,19 +613,104 @@
       </TVInputSelection>
     </CONTROLS>
   </DIRECT>
+  <OUTPUT>
+    <Type>Mover.Outputs.Thanos</Type>
+    <Name>OUTPUT :: THANOS</Name>
+    <Location>94,827</Location>
+    <Size>633,372</Size>
+    <Visible>True</Visible>
+    <CONTROLS>
+      <NUDInterval>1</NUDInterval>
+      <NUDStopTime>0</NUDStopTime>
+      <NUDStartTime>0</NUDStartTime>
+      <TXTStopString></TXTStopString>
+      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;Belts&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
+      <TXTStartString></TXTStartString>
+      <TXTUniqueName>10</TXTUniqueName>
+      <TXTName>OUTPUT :: THANOS</TXTName>
+      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
+      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
+      <CHKAutoConnect>False</CHKAutoConnect>
+      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
+      <DDLActuator8>None</DDLActuator8>
+      <DDLActuator7>None</DDLActuator7>
+      <DDLActuator6>&lt;Belts&gt;</DDLActuator6>
+      <DDLActuator5>&lt;TL&gt;</DDLActuator5>
+      <DDLActuator4>&lt;RR&gt;</DDLActuator4>
+      <DDLActuator3>&lt;FR&gt;</DDLActuator3>
+      <DDLActuator2>&lt;FL&gt;</DDLActuator2>
+      <DDLActuator1>&lt;RL&gt;</DDLActuator1>
+      <DDLPort>COM5</DDLPort>
+      <DDLRig>None</DDLRig>
+      <TVInputSelection />
+    </CONTROLS>
+  </OUTPUT>
+  <OUTPUT>
+    <Type>Mover.Outputs.Memory</Type>
+    <Name>OUTPUT :: MMF</Name>
+    <Location>92,805</Location>
+    <Size>570,420</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <NUDInterval>2</NUDInterval>
+      <NUDStopTime>0</NUDStopTime>
+      <NUDStartTime>0</NUDStartTime>
+      <TXTMMFName>motionRigPose</TXTMMFName>
+      <TXTStopString></TXTStopString>
+      <TXTSendString>&lt;MCPoseSway&gt;&lt;MCPoseSurge&gt;&lt;MCPoseHeave&gt;&lt;MCPoseYaw&gt;&lt;MCPoseRoll&gt;&lt;MCPosePitch&gt;</TXTSendString>
+      <TXTStartString></TXTStartString>
+      <TXTUniqueName>12</TXTUniqueName>
+      <TXTName>OUTPUT :: MMF</TXTName>
+      <SHDebug.chkShowHide>True</SHDebug.chkShowHide>
+      <SHInputSelection.chkShowHide>False</SHInputSelection.chkShowHide>
+      <CHKAutoConnect>False</CHKAutoConnect>
+      <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
+      <TVInputSelection />
+    </CONTROLS>
+  </OUTPUT>
+  <VIEWER_3D>
+    <Type>Mover.Viewers.View3D</Type>
+    <Name>3D VIEWER :: ID5</Name>
+    <Location>3,458</Location>
+    <Size>585,504</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <NUDXRotation>25</NUDXRotation>
+      <NUDZRotation>429</NUDZRotation>
+      <NUDDistance>1700</NUDDistance>
+      <TXTUniqueName>18</TXTUniqueName>
+      <TXTName>3D VIEWER :: ID5</TXTName>
+      <DDLProjection>Perspective</DDLProjection>
+      <ddlRigs>3DOF Rig</ddlRigs>
+    </CONTROLS>
+  </VIEWER_3D>
+  <VIEWER_GRAPHIC>
+    <Type>Mover.Viewers.ViewGraphics</Type>
+    <Name>GRAPHICS VIEWER :: ID10</Name>
+    <Location>107,12</Location>
+    <Size>882,626</Size>
+    <Visible>False</Visible>
+    <CONTROLS>
+      <nudHScale>33.333</nudHScale>
+      <nudVScale>1</nudVScale>
+      <TXTUniqueName>19</TXTUniqueName>
+      <TXTName>GRAPHICS VIEWER :: ID10</TXTName>
+      <shInputSelection.chkShowHide>True</shInputSelection.chkShowHide>
+      <tvInputSelection />
+    </CONTROLS>
+  </VIEWER_GRAPHIC>
   <Z_ORDER>
     <item>15</item>
-    <item>10</item>
-    <item>14</item>
-    <item>12</item>
     <item>14</item>
     <item>14</item>
-    <item>11</item>
-    <item>18</item>
-    <item>19</item>
-    <item>5</item>
     <item>14</item>
     <item>12</item>
     <item>13</item>
+    <item>18</item>
+    <item>11</item>
+    <item>12</item>
+    <item>14</item>
+    <item>10</item>
+    <item>19</item>
   </Z_ORDER>
 </FLYPT_MOVER>

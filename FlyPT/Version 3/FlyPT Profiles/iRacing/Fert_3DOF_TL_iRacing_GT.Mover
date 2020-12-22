@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="3.3.3">
   <MAIN>
-    <Location>1005,425</Location>
+    <Location>2285,425</Location>
   </MAIN>
   <SOURCE>
     <Type>Mover.Sources.MMF.IRacing</Type>
     <Name>SOURCE :: IRACING (MMF)</Name>
-    <Location>-1555,245</Location>
+    <Location>0,245</Location>
     <Size>550,550</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -24,7 +24,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>-2297,259</Location>
+    <Location>0,259</Location>
     <Size>1344,500</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -169,17 +169,17 @@
       <TVInputSelection>
         <item>Motion Pose</item>
       </TVInputSelection>
-      <PNLActuatorsOutput.slider0>5.05960218798464;5.05960218798464</PNLActuatorsOutput.slider0>
-      <PNLActuatorsOutput.slider1>-1.56920079182328;-1.56920079182328</PNLActuatorsOutput.slider1>
-      <PNLActuatorsOutput.slider2>-1.56920079182328;-1.56920079182328</PNLActuatorsOutput.slider2>
-      <PNLActuatorsOutput.slider3>5.05960218798464;5.05960218798464</PNLActuatorsOutput.slider3>
-      <PNLActuatorsOutput.slider4>-5.44916982992466;-5.44916982992466</PNLActuatorsOutput.slider4>
+      <PNLActuatorsOutput.slider0>0;0</PNLActuatorsOutput.slider0>
+      <PNLActuatorsOutput.slider1>0;0</PNLActuatorsOutput.slider1>
+      <PNLActuatorsOutput.slider2>0;0</PNLActuatorsOutput.slider2>
+      <PNLActuatorsOutput.slider3>0;0</PNLActuatorsOutput.slider3>
+      <PNLActuatorsOutput.slider4>0;0</PNLActuatorsOutput.slider4>
     </CONTROLS>
   </RIG>
   <DIRECT>
     <Type>Mover.Directs.MultiDirect</Type>
     <Name>Belts</Name>
-    <Location>-1797,261</Location>
+    <Location>0,261</Location>
     <Size>1033,517</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -696,7 +696,7 @@
   <VIEWER_GRAPHIC>
     <Type>Mover.Viewers.ViewGraphics</Type>
     <Name>GRAPHICS VIEWER :: ID10</Name>
-    <Location>-1721,207</Location>
+    <Location>0,207</Location>
     <Size>882,626</Size>
     <Visible>False</Visible>
     <CONTROLS>

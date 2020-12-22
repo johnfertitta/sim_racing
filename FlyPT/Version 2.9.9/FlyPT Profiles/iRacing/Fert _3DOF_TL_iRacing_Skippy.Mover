@@ -20,7 +20,7 @@
     <Name>SOURCE :: IRACING (MMF)</Name>
     <Location>2,352</Location>
     <Size>550,550</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLOptions.NUDSway>0</PNLOptions.NUDSway>
       <PNLOptions.NUDHeave>0</PNLOptions.NUDHeave>
@@ -29,7 +29,7 @@
       <TXTName>SOURCE :: IRACING (MMF)</TXTName>
       <SHOptions.chkShowHide>True</SHOptions.chkShowHide>
       <SHInputValues.chkShowHide>True</SHInputValues.chkShowHide>
-      <CHKAutoConnect>False</CHKAutoConnect>
+      <CHKAutoConnect>True</CHKAutoConnect>
     </CONTROLS>
   </SOURCE>
   <POSE>
@@ -37,7 +37,7 @@
     <Name>Motion Pose</Name>
     <Location>101,240</Location>
     <Size>1344,450</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
       <pnlPitch.nudPitchOutGain>0.4</pnlPitch.nudPitchOutGain>
@@ -92,31 +92,11 @@
     </CONTROLS>
   </POSE>
   <POSE>
-    <Type>Mover.Poses.Suspension</Type>
-    <Name>Suspension Pose</Name>
-    <Location>441,522</Location>
-    <Size>800,550</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <NUDWheelbase>2690</NUDWheelbase>
-      <NUDTrack>1700</NUDTrack>
-      <AFCFilter.txtFilterText>SUB(GAIN(MALP(VALUE;125);1);15)</AFCFilter.txtFilterText>
-      <TXTUniqueName>5</TXTUniqueName>
-      <TXTName>Suspension Pose</TXTName>
-      <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <DDLInputType>Suspension travel position (values shown in mm)</DDLInputType>
-      <TVInputSelection>
-        <item>SOURCE :: IRACING (MMF)</item>
-      </TVInputSelection>
-    </CONTROLS>
-  </POSE>
-  <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
     <Location>11,475</Location>
     <Size>1344,450</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>0</pnlPitch.nudSurgeInPitchOutGain>
       <pnlPitch.nudPitchOutGain>0</pnlPitch.nudPitchOutGain>
@@ -175,7 +155,7 @@
     <Name>3DOF Rig</Name>
     <Location>303,23</Location>
     <Size>1352,564</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -237,7 +217,7 @@
     <Name>Motion Comp Rig</Name>
     <Location>91,580</Location>
     <Size>1352,564</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -299,7 +279,7 @@
     <Name>TL Platform</Name>
     <Location>11,457</Location>
     <Size>1352,486</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -358,7 +338,7 @@
     <Name>Motion Comp TL Rig</Name>
     <Location>11,457</Location>
     <Size>1352,486</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -417,7 +397,7 @@
     <Name>Belts</Name>
     <Location>2,713</Location>
     <Size>1033,517</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlValues.nudValueGain7>-1</pnlValues.nudValueGain7>
       <pnlValues.nudValueGain2>0.25</pnlValues.nudValueGain2>
@@ -638,7 +618,7 @@
     <Name>OUTPUT :: THANOS</Name>
     <Location>2,827</Location>
     <Size>633,372</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <NUDInterval>1</NUDInterval>
       <NUDStopTime>0</NUDStopTime>
@@ -722,16 +702,15 @@
   <Z_ORDER>
     <item>13</item>
     <item>15</item>
-    <item>5</item>
-    <item>11</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
     <item>12</item>
     <item>12</item>
     <item>18</item>
     <item>19</item>
     <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
     <item>10</item>
+    <item>11</item>
   </Z_ORDER>
 </FLYPT_MOVER>

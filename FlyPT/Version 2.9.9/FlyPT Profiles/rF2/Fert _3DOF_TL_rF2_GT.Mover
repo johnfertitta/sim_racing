@@ -40,16 +40,16 @@
     <Visible>True</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
-      <pnlPitch.nudPitchOutGain>1</pnlPitch.nudPitchOutGain>
+      <pnlPitch.nudPitchOutGain>0.5</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
-      <pnlPitch.nudPitchRange>7</pnlPitch.nudPitchRange>
+      <pnlPitch.nudPitchRange>6</pnlPitch.nudPitchRange>
       <pnlRoll.nudSwayInRollOutGain>0.7</pnlRoll.nudSwayInRollOutGain>
-      <pnlRoll.nudRollOutGain>1</pnlRoll.nudRollOutGain>
+      <pnlRoll.nudRollOutGain>0.5</pnlRoll.nudRollOutGain>
       <pnlRoll.nudRollInGain>1</pnlRoll.nudRollInGain>
-      <pnlRoll.nudRollRange>7</pnlRoll.nudRollRange>
-      <pnlYaw.nudYawOutGain>1</pnlYaw.nudYawOutGain>
+      <pnlRoll.nudRollRange>6</pnlRoll.nudRollRange>
+      <pnlYaw.nudYawOutGain>0</pnlYaw.nudYawOutGain>
       <pnlYaw.nudYawInGain>1</pnlYaw.nudYawInGain>
-      <pnlYaw.nudYawRange>180</pnlYaw.nudYawRange>
+      <pnlYaw.nudYawRange>0</pnlYaw.nudYawRange>
       <pnlHeave.nudHeaveOutGain>1</pnlHeave.nudHeaveOutGain>
       <pnlHeave.nudHeaveInGain>1</pnlHeave.nudHeaveInGain>
       <pnlHeave.nudHeaveRange>25</pnlHeave.nudHeaveRange>
@@ -60,11 +60,11 @@
       <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
       <pnlSway.nudSwayRange>15</pnlSway.nudSwayRange>
       <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;100);3;0.15)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
-      <pnlPitch.afcPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;100);2.5;1)</pnlPitch.afcPitchFilter.txtFilterText>
+      <pnlPitch.afcPitchFilter.txtFilterText>MALP(VALUE;100)</pnlPitch.afcPitchFilter.txtFilterText>
       <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);3;0.15)</pnlRoll.afcSwayInRollFilter.txtFilterText>
-      <pnlRoll.afcRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;100);3;1)</pnlRoll.afcRollFilter.txtFilterText>
-      <pnlYaw.afcYawFilter.txtFilterText>DEMALP(LOGISTIC(CUBIC3(VALUE;0.000010);4.5;0.5);300)</pnlYaw.afcYawFilter.txtFilterText>
-      <pnlHeave.afcHeaveFilter.txtFilterText>LOGISTIC(MALP(VALUE;50);25;0.9)</pnlHeave.afcHeaveFilter.txtFilterText>
+      <pnlRoll.afcRollFilter.txtFilterText>MALP(VALUE;100)</pnlRoll.afcRollFilter.txtFilterText>
+      <pnlYaw.afcYawFilter.txtFilterText>VALUE</pnlYaw.afcYawFilter.txtFilterText>
+      <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;50)</pnlHeave.afcHeaveFilter.txtFilterText>
       <pnlSurge.afcSurgeFilter.txtFilterText>VALUE</pnlSurge.afcSurgeFilter.txtFilterText>
       <pnlSway.afcSwayFilter.txtFilterText>VALUE</pnlSway.afcSwayFilter.txtFilterText>
       <TXTUniqueName>12</TXTUniqueName>
@@ -89,24 +89,6 @@
       <TVInputSelection>
         <item>SOURCE :: RFACTOR2 (MMF+DLL)</item>
       </TVInputSelection>
-    </CONTROLS>
-  </POSE>
-  <POSE>
-    <Type>Mover.Poses.Suspension</Type>
-    <Name>Suspension Pose</Name>
-    <Location>2,713</Location>
-    <Size>800,550</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <NUDWheelbase>2690</NUDWheelbase>
-      <NUDTrack>1700</NUDTrack>
-      <AFCFilter.txtFilterText>GAIN(MALP(SUB(VALUE;30);50);0.3)</AFCFilter.txtFilterText>
-      <TXTUniqueName>5</TXTUniqueName>
-      <TXTName>Suspension Pose</TXTName>
-      <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <DDLInputType>Suspension travel position (values shown in mm)</DDLInputType>
-      <TVInputSelection />
     </CONTROLS>
   </POSE>
   <POSE>
@@ -166,23 +148,6 @@
       <TVInputSelection>
         <item>SOURCE :: RFACTOR2 (MMF+DLL)</item>
       </TVInputSelection>
-    </CONTROLS>
-  </POSE>
-  <POSE>
-    <Type>Mover.Poses.AdvancedDOFFromValue</Type>
-    <Name>POSE :: FROM GEAR SHIFT</Name>
-    <Location>542,511</Location>
-    <Size>800,377</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <afcFilter.txtFilterText>GAIN(EMAHP(SUB(VALUE;10);100);0.035)</afcFilter.txtFilterText>
-      <TXTUniqueName>6</TXTUniqueName>
-      <TXTName>POSE :: FROM GEAR SHIFT</TXTName>
-      <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <ddlDOF>Pitch</ddlDOF>
-      <ddlFromValue>Gear</ddlFromValue>
-      <TVInputSelection />
     </CONTROLS>
   </POSE>
   <RIG>
@@ -365,7 +330,6 @@
       <CHKStayLastPossiblePose>False</CHKStayLastPossiblePose>
       <TVInputSelection>
         <item>Motion Pose</item>
-        <item>Suspension Pose</item>
       </TVInputSelection>
     </CONTROLS>
   </RIG>
@@ -437,7 +401,7 @@
     <CONTROLS>
       <pnlValues.nudValueGain7>-1</pnlValues.nudValueGain7>
       <pnlValues.nudValueGain2>0.25</pnlValues.nudValueGain2>
-      <pnlValues.nudValueGain12>-0.7</pnlValues.nudValueGain12>
+      <pnlValues.nudValueGain12>-1</pnlValues.nudValueGain12>
       <pnlValues.nudValueGain0>1</pnlValues.nudValueGain0>
       <pnlValues.nudValueGain1>1</pnlValues.nudValueGain1>
       <pnlValues.nudValueGain3>1</pnlValues.nudValueGain3>
@@ -507,7 +471,7 @@
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
       <pnlValues.afcValueFilter7.txtFilterText>LOGISTIC(DEMALP(MAXCROP(VALUE;2);25);100;1)</pnlValues.afcValueFilter7.txtFilterText>
       <pnlValues.afcValueFilter2.txtFilterText>LOGISTIC(DEMALP(ABS(VALUE);150);100;1)</pnlValues.afcValueFilter2.txtFilterText>
-      <pnlValues.afcValueFilter12.txtFilterText>LOGISTIC(DEMALP(VALUE;150);30;1)</pnlValues.afcValueFilter12.txtFilterText>
+      <pnlValues.afcValueFilter12.txtFilterText>LOGISTIC(DEMALP(VALUE;150);25;1)</pnlValues.afcValueFilter12.txtFilterText>
       <pnlValues.afcValueFilter0.txtFilterText>VALUE</pnlValues.afcValueFilter0.txtFilterText>
       <pnlValues.afcValueFilter1.txtFilterText>VALUE</pnlValues.afcValueFilter1.txtFilterText>
       <pnlValues.afcValueFilter3.txtFilterText>VALUE</pnlValues.afcValueFilter3.txtFilterText>
@@ -736,19 +700,17 @@
     </CONTROLS>
   </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>6</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
-    <item>5</item>
     <item>15</item>
-    <item>15</item>
-    <item>12</item>
-    <item>13</item>
     <item>14</item>
     <item>12</item>
     <item>18</item>
     <item>19</item>
     <item>10</item>
+    <item>14</item>
+    <item>15</item>
+    <item>14</item>
+    <item>12</item>
+    <item>14</item>
+    <item>13</item>
   </Z_ORDER>
 </FLYPT_MOVER>

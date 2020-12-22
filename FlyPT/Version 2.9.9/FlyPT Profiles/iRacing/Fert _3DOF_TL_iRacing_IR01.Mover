@@ -35,7 +35,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>1496,509</Location>
+    <Location>1216,509</Location>
     <Size>1344,450</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -86,26 +86,6 @@
       <pnlHeave.ddlHeaveValue>Vertical acceleration (m/s²)</pnlHeave.ddlHeaveValue>
       <pnlSurge.ddlSurgeValue>Longitudinal acceleration (m/s²)</pnlSurge.ddlSurgeValue>
       <pnlSway.ddlSwayValue>Lateral acceleration (m/s²)</pnlSway.ddlSwayValue>
-      <TVInputSelection>
-        <item>SOURCE :: IRACING (MMF)</item>
-      </TVInputSelection>
-    </CONTROLS>
-  </POSE>
-  <POSE>
-    <Type>Mover.Poses.Suspension</Type>
-    <Name>Suspension Pose</Name>
-    <Location>3,425</Location>
-    <Size>800,550</Size>
-    <Visible>False</Visible>
-    <CONTROLS>
-      <NUDWheelbase>2690</NUDWheelbase>
-      <NUDTrack>1700</NUDTrack>
-      <AFCFilter.txtFilterText>GAIN(MALP(SUB(VALUE;0);50);0.400)</AFCFilter.txtFilterText>
-      <TXTUniqueName>5</TXTUniqueName>
-      <TXTName>Suspension Pose</TXTName>
-      <SHPoseValues.chkShowHide>True</SHPoseValues.chkShowHide>
-      <SHInputSelection.chkShowHide>True</SHInputSelection.chkShowHide>
-      <DDLInputType>Suspension travel position (values shown in mm)</DDLInputType>
       <TVInputSelection>
         <item>SOURCE :: IRACING (MMF)</item>
       </TVInputSelection>
@@ -291,7 +271,6 @@
       <CHKStayLastPossiblePose>False</CHKStayLastPossiblePose>
       <TVInputSelection>
         <item>Motion Pose</item>
-        <item>Suspension Pose</item>
       </TVInputSelection>
     </CONTROLS>
   </RIG>
@@ -721,7 +700,6 @@
     </CONTROLS>
   </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>5</item>
     <item>15</item>
     <item>11</item>
     <item>13</item>
