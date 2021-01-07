@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<FLYPT_MOVER Version="3.3.3">
+<FLYPT_MOVER Version="3.3.5">
   <MAIN>
-    <Location>1005,425</Location>
+    <Location>2285,425</Location>
   </MAIN>
   <SOURCE>
     <Type>Mover.Sources.MMF.IRacing</Type>
     <Name>SOURCE :: IRACING (MMF)</Name>
-    <Location>-1555,245</Location>
+    <Location>0,245</Location>
     <Size>550,550</Size>
     <Visible>False</Visible>
     <CONTROLS>
       <PNLOptions.NUDSway>0</PNLOptions.NUDSway>
-      <PNLOptions.NUDHeave>0</PNLOptions.NUDHeave>
       <PNLOptions.NUDSurge>0</PNLOptions.NUDSurge>
+      <PNLOptions.NUDHeave>0</PNLOptions.NUDHeave>
       <PNLOptions.AFCCalculationsFilter.txtFilterText>VALUE</PNLOptions.AFCCalculationsFilter.txtFilterText>
       <TXTUniqueName>11</TXTUniqueName>
       <TXTName>SOURCE :: IRACING (MMF)</TXTName>
@@ -28,35 +28,35 @@
     <Size>1344,500</Size>
     <Visible>True</Visible>
     <CONTROLS>
-      <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
+      <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
+      <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
+      <pnlSway.nudSwayRange>20</pnlSway.nudSwayRange>
+      <pnlSurge.nudSurgeOutGain>1</pnlSurge.nudSurgeOutGain>
+      <pnlSurge.nudSurgeInGain>1</pnlSurge.nudSurgeInGain>
+      <pnlSurge.nudSurgeRange>20</pnlSurge.nudSurgeRange>
+      <pnlHeave.nudHeaveOutGain>1</pnlHeave.nudHeaveOutGain>
+      <pnlHeave.nudHeaveInGain>1</pnlHeave.nudHeaveInGain>
+      <pnlHeave.nudHeaveRange>25.0</pnlHeave.nudHeaveRange>
+      <pnlYaw.nudYawOutGain>1</pnlYaw.nudYawOutGain>
+      <pnlYaw.nudYawInGain>1</pnlYaw.nudYawInGain>
+      <pnlYaw.nudYawRange>180</pnlYaw.nudYawRange>
+      <pnlRoll.nudRollOutGain>0.3</pnlRoll.nudRollOutGain>
+      <pnlRoll.nudRollInGain>1</pnlRoll.nudRollInGain>
+      <pnlRoll.nudRollRange>6.0</pnlRoll.nudRollRange>
       <pnlPitch.nudPitchOutGain>0.4</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
       <pnlPitch.nudPitchRange>6.0</pnlPitch.nudPitchRange>
       <pnlRoll.nudSwayInRollOutGain>0.4</pnlRoll.nudSwayInRollOutGain>
-      <pnlRoll.nudRollOutGain>0.3</pnlRoll.nudRollOutGain>
-      <pnlRoll.nudRollInGain>1</pnlRoll.nudRollInGain>
-      <pnlRoll.nudRollRange>6.0</pnlRoll.nudRollRange>
-      <pnlYaw.nudYawOutGain>1</pnlYaw.nudYawOutGain>
-      <pnlYaw.nudYawInGain>1</pnlYaw.nudYawInGain>
-      <pnlYaw.nudYawRange>180</pnlYaw.nudYawRange>
-      <pnlHeave.nudHeaveOutGain>1</pnlHeave.nudHeaveOutGain>
-      <pnlHeave.nudHeaveInGain>1</pnlHeave.nudHeaveInGain>
-      <pnlHeave.nudHeaveRange>25.0</pnlHeave.nudHeaveRange>
-      <pnlSurge.nudSurgeOutGain>1</pnlSurge.nudSurgeOutGain>
-      <pnlSurge.nudSurgeInGain>1</pnlSurge.nudSurgeInGain>
-      <pnlSurge.nudSurgeRange>20</pnlSurge.nudSurgeRange>
-      <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
-      <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
-      <pnlSway.nudSwayRange>20</pnlSway.nudSwayRange>
-      <NUDPitchCORZ>0</NUDPitchCORZ>
-      <NUDPitchCORY>0</NUDPitchCORY>
-      <NUDPitchCORX>0</NUDPitchCORX>
-      <NUDRollCORZ>0</NUDRollCORZ>
-      <NUDRollCORY>0</NUDRollCORY>
-      <NUDRollCORX>0</NUDRollCORX>
-      <NUDYawCORZ>0</NUDYawCORZ>
-      <NUDYawCORY>0</NUDYawCORY>
+      <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
       <NUDYawCORX>0</NUDYawCORX>
+      <NUDYawCORY>0</NUDYawCORY>
+      <NUDYawCORZ>0</NUDYawCORZ>
+      <NUDRollCORX>0</NUDRollCORX>
+      <NUDRollCORY>0</NUDRollCORY>
+      <NUDRollCORZ>0</NUDRollCORZ>
+      <NUDPitchCORX>0</NUDPitchCORX>
+      <NUDPitchCORY>0</NUDPitchCORY>
+      <NUDPitchCORZ>0</NUDPitchCORZ>
       <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);6;0.15)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
       <pnlPitch.afcPitchFilter.txtFilterText>MALP(VALUE;125)</pnlPitch.afcPitchFilter.txtFilterText>
       <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);3;0.300)</pnlRoll.afcSwayInRollFilter.txtFilterText>
@@ -103,44 +103,44 @@
     <Visible>True</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
+      <NUDSwayLimit>0</NUDSwayLimit>
+      <NUDSwayDrive>0</NUDSwayDrive>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
+      <NUDSurgeLimit>100</NUDSurgeLimit>
+      <NUDSurgeDrive>0</NUDSurgeDrive>
       <PNLActuatorsOutput.nudDefault2>0</PNLActuatorsOutput.nudDefault2>
+      <NUDHeaveLimit>25</NUDHeaveLimit>
+      <NUDHeaveDrive>0</NUDHeaveDrive>
       <PNLActuatorsOutput.nudDefault3>0</PNLActuatorsOutput.nudDefault3>
+      <NUDYawLimit>5</NUDYawLimit>
+      <NUDYawDrive>0</NUDYawDrive>
       <PNLActuatorsOutput.nudDefault4>0</PNLActuatorsOutput.nudDefault4>
-      <NUDRigL2>1066.8</NUDRigL2>
+      <NUDRollLimit>3</NUDRollLimit>
+      <NUDRollDrive>0</NUDRollDrive>
+      <NUDPitchLimit>5</NUDPitchLimit>
+      <NUDPitchDrive>0</NUDPitchDrive>
+      <NUDGain>1</NUDGain>
       <NUDRigL1>736.6</NUDRigL1>
+      <NUDRigL2>1066.8</NUDRigL2>
       <NUDRange>75</NUDRange>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
-      <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
-      <NUDSwayLimit>0</NUDSwayLimit>
-      <NUDPitchLimit>5</NUDPitchLimit>
-      <NUDYawLimit>5</NUDYawLimit>
-      <NUDTLRodJointZ>-25</NUDTLRodJointZ>
-      <NUDRollLimit>3</NUDRollLimit>
-      <NUDTLHouseJointZ>-25</NUDTLHouseJointZ>
-      <NUDCORZ>0</NUDCORZ>
-      <NUDTLRodJointY>-444.5</NUDTLRodJointY>
-      <NUDSurgeLimit>100</NUDSurgeLimit>
-      <NUDTLRodJointX>-158.75</NUDTLRodJointX>
-      <NUDCORY>0</NUDCORY>
-      <NUDTLHouseJointX>355</NUDTLHouseJointX>
-      <NUDHeaveLimit>25</NUDHeaveLimit>
-      <NUDTLHouseJointY>-381.0</NUDTLHouseJointY>
       <NUDCORX>0</NUDCORX>
-      <NUDTLRange>75</NUDTLRange>
+      <NUDCORY>0</NUDCORY>
+      <NUDCORZ>0</NUDCORZ>
       <NUDTLAxis>685.8</NUDTLAxis>
-      <NUDSwayDrive>0</NUDSwayDrive>
-      <NUDPitchDrive>0</NUDPitchDrive>
-      <NUDYawDrive>0</NUDYawDrive>
-      <NUDRollDrive>0</NUDRollDrive>
-      <NUDSurgeDrive>0</NUDSurgeDrive>
-      <NUDHeaveDrive>0</NUDHeaveDrive>
-      <NUDD>0</NUDD>
-      <NUDI>0</NUDI>
-      <NUDP>1</NUDP>
-      <NUDMaximumSpeed>127</NUDMaximumSpeed>
+      <NUDTLRange>75</NUDTLRange>
+      <NUDTLHouseJointY>-381.0</NUDTLHouseJointY>
+      <NUDTLHouseJointX>355</NUDTLHouseJointX>
+      <NUDTLRodJointX>-158.75</NUDTLRodJointX>
       <NUDSpeedBits>8</NUDSpeedBits>
+      <NUDTLRodJointY>-444.5</NUDTLRodJointY>
+      <NUDTLHouseJointZ>-25</NUDTLHouseJointZ>
+      <NUDMaximumSpeed>127</NUDMaximumSpeed>
+      <NUDTLRodJointZ>-25</NUDTLRodJointZ>
+      <NUDP>1</NUDP>
+      <NUDI>0</NUDI>
+      <NUDD>0</NUDD>
       <PNLActuatorsOutput.txtKey0>FR</PNLActuatorsOutput.txtKey0>
       <PNLActuatorsOutput.txtSpeedKey0>SpeedFR</PNLActuatorsOutput.txtSpeedKey0>
       <PNLActuatorsOutput.txtKey1>RR</PNLActuatorsOutput.txtKey1>
@@ -183,19 +183,19 @@
     <Size>1033,517</Size>
     <Visible>True</Visible>
     <CONTROLS>
-      <pnlValues.nudValueGain7>-1</pnlValues.nudValueGain7>
-      <pnlValues.nudValueGain2>0.25</pnlValues.nudValueGain2>
-      <pnlValues.nudValueGain12>-0.7</pnlValues.nudValueGain12>
       <pnlValues.nudValueGain0>1</pnlValues.nudValueGain0>
       <pnlValues.nudValueGain1>1</pnlValues.nudValueGain1>
+      <pnlValues.nudValueGain2>0.25</pnlValues.nudValueGain2>
       <pnlValues.nudValueGain3>1</pnlValues.nudValueGain3>
       <pnlValues.nudValueGain4>1</pnlValues.nudValueGain4>
       <pnlValues.nudValueGain5>1</pnlValues.nudValueGain5>
       <pnlValues.nudValueGain6>1</pnlValues.nudValueGain6>
+      <pnlValues.nudValueGain7>-1</pnlValues.nudValueGain7>
       <pnlValues.nudValueGain8>1</pnlValues.nudValueGain8>
       <pnlValues.nudValueGain9>1</pnlValues.nudValueGain9>
       <pnlValues.nudValueGain10>1</pnlValues.nudValueGain10>
       <pnlValues.nudValueGain11>1</pnlValues.nudValueGain11>
+      <pnlValues.nudValueGain12>-0.7</pnlValues.nudValueGain12>
       <pnlValues.nudValueGain13>1</pnlValues.nudValueGain13>
       <pnlValues.nudValueGain14>1</pnlValues.nudValueGain14>
       <pnlValues.nudValueGain15>1</pnlValues.nudValueGain15>
@@ -317,10 +317,10 @@
       <pnlValues.nudValueGain131>1</pnlValues.nudValueGain131>
       <pnlValues.nudValueGain132>1</pnlValues.nudValueGain132>
       <pnlValues.nudValueGain133>1</pnlValues.nudValueGain133>
-      <NUDDefault>0</NUDDefault>
-      <NUDTo>50</NUDTo>
-      <NUDFrom>-50</NUDFrom>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
+      <NUDFrom>-50</NUDFrom>
+      <NUDTo>50</NUDTo>
+      <NUDDefault>0</NUDDefault>
       <pnlValues.afcValueFilter7.txtFilterText>LOGISTIC(MALP(MAXCROP(VALUE;2);50);100;1)</pnlValues.afcValueFilter7.txtFilterText>
       <pnlValues.afcValueFilter2.txtFilterText>LOGISTIC(MALP(ABS(VALUE);150);100;1)</pnlValues.afcValueFilter2.txtFilterText>
       <pnlValues.afcValueFilter12.txtFilterText>LOGISTIC(MALP(VALUE;88);25;0.9)</pnlValues.afcValueFilter12.txtFilterText>
@@ -607,25 +607,25 @@
     <Name>OUTPUT :: THANOS</Name>
     <Location>90,707</Location>
     <Size>1257,372</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
-      <PNLHardware.NUDActuatorLimits>1</PNLHardware.NUDActuatorLimits>
-      <PNLHardware.NUDStandbyTimeout>5</PNLHardware.NUDStandbyTimeout>
-      <PNLHardware.NUDStandbySpeed>24</PNLHardware.NUDStandbySpeed>
-      <PNLHardware.NUDStandbyPosition>127</PNLHardware.NUDStandbyPosition>
-      <PNLHardware.NUDParkTimeout>5</PNLHardware.NUDParkTimeout>
-      <PNLHardware.NUDParkSpeed>10</PNLHardware.NUDParkSpeed>
-      <PNLHardware.NUDParkPosition>1</PNLHardware.NUDParkPosition>
-      <PNLHardware.NUDNumberOfMotors>6</PNLHardware.NUDNumberOfMotors>
-      <PNLHardware.NUDFilterLevel>0</PNLHardware.NUDFilterLevel>
-      <PNLHardware.NUDTLSpikeFactor>127</PNLHardware.NUDTLSpikeFactor>
-      <PNLHardware.NUDSpikeFactor>127</PNLHardware.NUDSpikeFactor>
-      <PNLHardware.NUDSpikeRange>127</PNLHardware.NUDSpikeRange>
       <NUDInterval>1</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
       <NUDStartTime>0</NUDStartTime>
+      <NUDStopTime>0</NUDStopTime>
+      <PNLHardware.NUDSpikeRange>127</PNLHardware.NUDSpikeRange>
+      <PNLHardware.NUDSpikeFactor>127</PNLHardware.NUDSpikeFactor>
+      <PNLHardware.NUDTLSpikeFactor>127</PNLHardware.NUDTLSpikeFactor>
+      <PNLHardware.NUDFilterLevel>0</PNLHardware.NUDFilterLevel>
+      <PNLHardware.NUDNumberOfMotors>6</PNLHardware.NUDNumberOfMotors>
+      <PNLHardware.NUDParkPosition>1</PNLHardware.NUDParkPosition>
+      <PNLHardware.NUDParkSpeed>10</PNLHardware.NUDParkSpeed>
+      <PNLHardware.NUDParkTimeout>5</PNLHardware.NUDParkTimeout>
+      <PNLHardware.NUDStandbyPosition>127</PNLHardware.NUDStandbyPosition>
+      <PNLHardware.NUDStandbySpeed>24</PNLHardware.NUDStandbySpeed>
+      <PNLHardware.NUDStandbyTimeout>5</PNLHardware.NUDStandbyTimeout>
+      <PNLHardware.NUDActuatorLimits>1</PNLHardware.NUDActuatorLimits>
       <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
+      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;Belts&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
       <TXTStartString></TXTStartString>
       <TXTUniqueName>7</TXTUniqueName>
       <TXTInputString></TXTInputString>
@@ -642,7 +642,7 @@
       <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
       <DDLActuator8>None</DDLActuator8>
       <DDLActuator7>None</DDLActuator7>
-      <DDLActuator6>None</DDLActuator6>
+      <DDLActuator6>&lt;Belts&gt;</DDLActuator6>
       <DDLActuator5>&lt;TL&gt;</DDLActuator5>
       <DDLActuator4>&lt;RR&gt;</DDLActuator4>
       <DDLActuator3>&lt;FR&gt;</DDLActuator3>
@@ -661,8 +661,8 @@
     <Visible>False</Visible>
     <CONTROLS>
       <NUDInterval>2</NUDInterval>
-      <NUDStopTime>0</NUDStopTime>
       <NUDStartTime>0</NUDStartTime>
+      <NUDStopTime>0</NUDStopTime>
       <TXTMMFName>motionRigPose</TXTMMFName>
       <TXTStopString></TXTStopString>
       <TXTSendString>&lt;PoseSway&gt;&lt;PoseSurge&gt;&lt;PoseHeave&gt;&lt;PoseYaw&gt;&lt;PoseRoll&gt;&lt;PosePitch&gt;</TXTSendString>
@@ -684,9 +684,9 @@
     <Size>585,503</Size>
     <Visible>True</Visible>
     <CONTROLS>
-      <NUDXRotation>53</NUDXRotation>
-      <NUDZRotation>417</NUDZRotation>
       <NUDDistance>2180</NUDDistance>
+      <NUDZRotation>417</NUDZRotation>
+      <NUDXRotation>53</NUDXRotation>
       <TXTUniqueName>18</TXTUniqueName>
       <TXTName>3D VIEWER :: ID5</TXTName>
       <DDLProjection>Perspective</DDLProjection>
@@ -696,12 +696,12 @@
   <VIEWER_GRAPHIC>
     <Type>Mover.Viewers.ViewGraphics</Type>
     <Name>GRAPHICS VIEWER :: ID10</Name>
-    <Location>-1721,207</Location>
+    <Location>0,207</Location>
     <Size>882,626</Size>
     <Visible>False</Visible>
     <CONTROLS>
-      <nudHScale>33.323</nudHScale>
       <nudVScale>1</nudVScale>
+      <nudHScale>33.323</nudHScale>
       <TXTUniqueName>19</TXTUniqueName>
       <TXTName>GRAPHICS VIEWER :: ID10</TXTName>
       <shInputSelection.chkShowHide>True</shInputSelection.chkShowHide>
@@ -715,12 +715,12 @@
   </VIEWER_GRAPHIC>
   <Z_ORDER>
     <item>18</item>
-    <item>7</item>
     <item>8</item>
     <item>11</item>
     <item>19</item>
     <item>13</item>
     <item>12</item>
     <item>1</item>
+    <item>7</item>
   </Z_ORDER>
 </FLYPT_MOVER>

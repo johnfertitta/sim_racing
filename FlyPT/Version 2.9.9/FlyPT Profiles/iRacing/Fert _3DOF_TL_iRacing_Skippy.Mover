@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>388,797</Location>
+    <Location>289,791</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -35,7 +35,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>101,240</Location>
+    <Location>26,240</Location>
     <Size>1344,450</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -94,7 +94,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
-    <Location>11,475</Location>
+    <Location>4,475</Location>
     <Size>1344,450</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -153,7 +153,7 @@
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
     <Name>3DOF Rig</Name>
-    <Location>303,23</Location>
+    <Location>565,27</Location>
     <Size>1352,564</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -215,7 +215,7 @@
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
     <Name>Motion Comp Rig</Name>
-    <Location>91,580</Location>
+    <Location>540,599</Location>
     <Size>1352,564</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -228,11 +228,11 @@
       <NUDRigL1>736.6</NUDRigL1>
       <NUDRange>75</NUDRange>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
-      <NUDGain>1.5510</NUDGain>
+      <NUDGain>0.25</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
       <NUDPitch>6</NUDPitch>
-      <NUDYaw>3</NUDYaw>
+      <NUDYaw>0</NUDYaw>
       <NUDRoll>2</NUDRoll>
       <NUDCORZ>0</NUDCORZ>
       <NUDSurge>17.5</NUDSurge>
@@ -260,7 +260,7 @@
       <TXTUniqueName>14</TXTUniqueName>
       <TXTPitchKey>MCPosePitch</TXTPitchKey>
       <TXTRollKey>MCPoseRoll</TXTRollKey>
-      <TXTYawKey>MCPoseYaw</TXTYawKey>
+      <TXTYawKey></TXTYawKey>
       <TXTHeaveKey>MCPoseHeave</TXTHeaveKey>
       <TXTSurgeKey>MCPoseSurge</TXTSurgeKey>
       <TXTSwayKey>MCPoseSway</TXTSwayKey>
@@ -277,9 +277,9 @@
   <RIG>
     <Type>Mover.Rigs.LinearActuator</Type>
     <Name>TL Platform</Name>
-    <Location>11,457</Location>
+    <Location>744,580</Location>
     <Size>1352,486</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -336,9 +336,9 @@
   <RIG>
     <Type>Mover.Rigs.LinearActuator</Type>
     <Name>Motion Comp TL Rig</Name>
-    <Location>11,457</Location>
+    <Location>1208,135</Location>
     <Size>1352,486</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -349,7 +349,7 @@
       <NUDFixedX>355</NUDFixedX>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
       <NUDRange>65</NUDRange>
-      <NUDGain>1</NUDGain>
+      <NUDGain>0.25</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>9999</NUDSway>
       <NUDPitch>180</NUDPitch>
@@ -648,7 +648,7 @@
   <OUTPUT>
     <Type>Mover.Outputs.Memory</Type>
     <Name>OUTPUT :: MMF</Name>
-    <Location>120,853</Location>
+    <Location>31,853</Location>
     <Size>570,420</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -673,10 +673,10 @@
     <Name>3D VIEWER :: ID5</Name>
     <Location>2,458</Location>
     <Size>585,504</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
-      <NUDXRotation>25</NUDXRotation>
-      <NUDZRotation>429</NUDZRotation>
+      <NUDXRotation>0</NUDXRotation>
+      <NUDZRotation>448</NUDZRotation>
       <NUDDistance>1700</NUDDistance>
       <TXTUniqueName>18</TXTUniqueName>
       <TXTName>3D VIEWER :: ID5</TXTName>
@@ -701,16 +701,16 @@
   </VIEWER_GRAPHIC>
   <Z_ORDER>
     <item>13</item>
-    <item>15</item>
-    <item>12</item>
-    <item>12</item>
-    <item>18</item>
     <item>19</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
     <item>10</item>
     <item>11</item>
+    <item>12</item>
+    <item>12</item>
+    <item>15</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>18</item>
   </Z_ORDER>
 </FLYPT_MOVER>
