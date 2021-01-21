@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>788,693</Location>
+    <Location>1412,723</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -166,7 +166,7 @@
       <NUDRigL1>736.6</NUDRigL1>
       <NUDRange>75</NUDRange>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
-      <NUDGain>0.900</NUDGain>
+      <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
       <NUDPitch>6</NUDPitch>
@@ -217,7 +217,7 @@
     <Name>Motion Comp Rig</Name>
     <Location>8,407</Location>
     <Size>1352,564</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -228,7 +228,7 @@
       <NUDRigL1>736.6</NUDRigL1>
       <NUDRange>75</NUDRange>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
-      <NUDGain>0.150</NUDGain>
+      <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
       <NUDPitch>2.5</NUDPitch>
@@ -290,7 +290,7 @@
       <NUDFixedX>355</NUDFixedX>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
       <NUDRange>65</NUDRange>
-      <NUDGain>0.900</NUDGain>
+      <NUDGain>0.25</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>9999</NUDSway>
       <NUDPitch>180</NUDPitch>
@@ -338,7 +338,7 @@
     <Name>Motion Comp TL Rig</Name>
     <Location>604,457</Location>
     <Size>1352,486</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -702,15 +702,15 @@
   <Z_ORDER>
     <item>19</item>
     <item>18</item>
-    <item>12</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
     <item>10</item>
-    <item>14</item>
-    <item>15</item>
     <item>12</item>
+    <item>14</item>
     <item>14</item>
     <item>13</item>
+    <item>12</item>
+    <item>14</item>
+    <item>15</item>
+    <item>14</item>
+    <item>14</item>
   </Z_ORDER>
 </FLYPT_MOVER>

@@ -39,7 +39,7 @@
     <Size>1344,450</Size>
     <Visible>True</Visible>
     <CONTROLS>
-      <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
+      <pnlPitch.nudSurgeInPitchOutGain>0.85</pnlPitch.nudSurgeInPitchOutGain>
       <pnlPitch.nudPitchOutGain>0.4</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
       <pnlPitch.nudPitchRange>6.0</pnlPitch.nudPitchRange>
@@ -169,7 +169,7 @@
       <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
-      <NUDPitch>6</NUDPitch>
+      <NUDPitch>4</NUDPitch>
       <NUDYaw>0</NUDYaw>
       <NUDRoll>2</NUDRoll>
       <NUDCORZ>0</NUDCORZ>
@@ -708,9 +708,9 @@
     <item>14</item>
     <item>14</item>
     <item>14</item>
-    <item>14</item>
-    <item>12</item>
     <item>12</item>
     <item>10</item>
+    <item>14</item>
+    <item>12</item>
   </Z_ORDER>
 </FLYPT_MOVER>

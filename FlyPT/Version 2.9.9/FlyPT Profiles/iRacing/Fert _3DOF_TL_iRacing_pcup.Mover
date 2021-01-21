@@ -37,10 +37,10 @@
     <Name>Motion Pose</Name>
     <Location>113,838</Location>
     <Size>1344,450</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
-      <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
-      <pnlPitch.nudPitchOutGain>0.35</pnlPitch.nudPitchOutGain>
+      <pnlPitch.nudSurgeInPitchOutGain>0.92</pnlPitch.nudSurgeInPitchOutGain>
+      <pnlPitch.nudPitchOutGain>0.25</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
       <pnlPitch.nudPitchRange>6</pnlPitch.nudPitchRange>
       <pnlRoll.nudSwayInRollOutGain>0.7</pnlRoll.nudSwayInRollOutGain>
@@ -155,7 +155,7 @@
     <Name>3DOF Rig</Name>
     <Location>87,572</Location>
     <Size>1352,564</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -169,7 +169,7 @@
       <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
-      <NUDPitch>5</NUDPitch>
+      <NUDPitch>4</NUDPitch>
       <NUDYaw>0</NUDYaw>
       <NUDRoll>3</NUDRoll>
       <NUDCORZ>0</NUDCORZ>
@@ -711,11 +711,11 @@
     <item>14</item>
     <item>14</item>
     <item>14</item>
-    <item>14</item>
-    <item>12</item>
     <item>12</item>
     <item>18</item>
     <item>19</item>
     <item>10</item>
+    <item>14</item>
+    <item>12</item>
   </Z_ORDER>
 </FLYPT_MOVER>
