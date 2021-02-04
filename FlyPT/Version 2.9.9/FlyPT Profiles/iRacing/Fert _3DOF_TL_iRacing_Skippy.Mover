@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>289,791</Location>
+    <Location>1844,-667</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -37,10 +37,10 @@
     <Name>Motion Pose</Name>
     <Location>26,240</Location>
     <Size>1344,450</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
-      <pnlPitch.nudSurgeInPitchOutGain>0.8</pnlPitch.nudSurgeInPitchOutGain>
-      <pnlPitch.nudPitchOutGain>0.3</pnlPitch.nudPitchOutGain>
+      <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
+      <pnlPitch.nudPitchOutGain>0.35</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
       <pnlPitch.nudPitchRange>6.0</pnlPitch.nudPitchRange>
       <pnlRoll.nudSwayInRollOutGain>0.4</pnlRoll.nudSwayInRollOutGain>
@@ -155,7 +155,7 @@
     <Name>3DOF Rig</Name>
     <Location>565,27</Location>
     <Size>1352,564</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -169,7 +169,7 @@
       <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
-      <NUDPitch>4</NUDPitch>
+      <NUDPitch>5</NUDPitch>
       <NUDYaw>0</NUDYaw>
       <NUDRoll>2</NUDRoll>
       <NUDCORZ>0</NUDCORZ>
@@ -279,7 +279,7 @@
     <Name>TL Platform</Name>
     <Location>744,580</Location>
     <Size>1352,486</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -338,7 +338,7 @@
     <Name>Motion Comp TL Rig</Name>
     <Location>1208,135</Location>
     <Size>1352,486</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -668,22 +668,6 @@
       <TVInputSelection />
     </CONTROLS>
   </OUTPUT>
-  <VIEWER_3D>
-    <Type>Mover.Viewers.View3D</Type>
-    <Name>3D VIEWER :: ID5</Name>
-    <Location>2,458</Location>
-    <Size>585,504</Size>
-    <Visible>True</Visible>
-    <CONTROLS>
-      <NUDXRotation>0</NUDXRotation>
-      <NUDZRotation>448</NUDZRotation>
-      <NUDDistance>1700</NUDDistance>
-      <TXTUniqueName>18</TXTUniqueName>
-      <TXTName>3D VIEWER :: ID5</TXTName>
-      <DDLProjection>Perspective</DDLProjection>
-      <ddlRigs>3DOF Rig</ddlRigs>
-    </CONTROLS>
-  </VIEWER_3D>
   <VIEWER_GRAPHIC>
     <Type>Mover.Viewers.ViewGraphics</Type>
     <Name>GRAPHICS VIEWER :: ID10</Name>
@@ -702,15 +686,14 @@
   <Z_ORDER>
     <item>13</item>
     <item>19</item>
-    <item>10</item>
     <item>11</item>
-    <item>12</item>
     <item>15</item>
     <item>14</item>
     <item>14</item>
     <item>14</item>
-    <item>18</item>
+    <item>12</item>
     <item>14</item>
     <item>12</item>
+    <item>10</item>
   </Z_ORDER>
 </FLYPT_MOVER>

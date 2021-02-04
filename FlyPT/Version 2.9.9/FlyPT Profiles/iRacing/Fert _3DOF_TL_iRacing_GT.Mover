@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>318,746</Location>
+    <Location>2430,-740</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -18,7 +18,7 @@
   <SOURCE>
     <Type>Mover.Sources.MMF.IRacing</Type>
     <Name>SOURCE :: IRACING (MMF)</Name>
-    <Location>2010,0</Location>
+    <Location>0,0</Location>
     <Size>550,550</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -35,12 +35,12 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>938,182</Location>
+    <Location>0,104</Location>
     <Size>1344,450</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
-      <pnlPitch.nudPitchOutGain>0.25</pnlPitch.nudPitchOutGain>
+      <pnlPitch.nudPitchOutGain>0.350</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
       <pnlPitch.nudPitchRange>6</pnlPitch.nudPitchRange>
       <pnlRoll.nudSwayInRollOutGain>1</pnlRoll.nudSwayInRollOutGain>
@@ -94,7 +94,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
-    <Location>1216,0</Location>
+    <Location>0,0</Location>
     <Size>1344,450</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -153,9 +153,9 @@
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
     <Name>3DOF Rig</Name>
-    <Location>989,721</Location>
+    <Location>0,358</Location>
     <Size>1352,564</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -169,7 +169,7 @@
       <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
-      <NUDPitch>4</NUDPitch>
+      <NUDPitch>5</NUDPitch>
       <NUDYaw>0</NUDYaw>
       <NUDRoll>3</NUDRoll>
       <NUDCORZ>0</NUDCORZ>
@@ -215,7 +215,7 @@
   <RIG>
     <Type>Mover.Rigs.LinearActuator</Type>
     <Name>TL Platform</Name>
-    <Location>1208,0</Location>
+    <Location>0,0</Location>
     <Size>1352,486</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -274,7 +274,7 @@
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
     <Name>Motion Comp Rig</Name>
-    <Location>1208,0</Location>
+    <Location>0,0</Location>
     <Size>1352,564</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -336,7 +336,7 @@
   <RIG>
     <Type>Mover.Rigs.LinearActuator</Type>
     <Name>Motion Comp TL Rig</Name>
-    <Location>1208,0</Location>
+    <Location>0,0</Location>
     <Size>1352,486</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -395,7 +395,7 @@
   <DIRECT>
     <Type>Mover.Directs.MultiDirect</Type>
     <Name>Belts</Name>
-    <Location>1527,0</Location>
+    <Location>0,316</Location>
     <Size>1033,517</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -469,7 +469,7 @@
       <NUDTo>50</NUDTo>
       <NUDFrom>-50</NUDFrom>
       <NUDActuatorsBitOutput>16</NUDActuatorsBitOutput>
-      <pnlValues.afcValueFilter7.txtFilterText>LOGISTIC(MALP(MAXCROP(VALUE;2);25);100;1)</pnlValues.afcValueFilter7.txtFilterText>
+      <pnlValues.afcValueFilter7.txtFilterText>LOGISTIC(MALP(MAXCROP(VALUE;2);25);100;2.000)</pnlValues.afcValueFilter7.txtFilterText>
       <pnlValues.afcValueFilter2.txtFilterText>LOGISTIC(MALP(ABS(VALUE);150);100;1)</pnlValues.afcValueFilter2.txtFilterText>
       <pnlValues.afcValueFilter12.txtFilterText>LOGISTIC(MALP(VALUE;88);25;0.9)</pnlValues.afcValueFilter12.txtFilterText>
       <pnlValues.afcValueFilter0.txtFilterText>VALUE</pnlValues.afcValueFilter0.txtFilterText>
@@ -616,9 +616,9 @@
   <OUTPUT>
     <Type>Mover.Outputs.Thanos</Type>
     <Name>OUTPUT :: THANOS</Name>
-    <Location>1927,0</Location>
+    <Location>620,765</Location>
     <Size>633,372</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <NUDInterval>1</NUDInterval>
       <NUDStopTime>0</NUDStopTime>
@@ -648,9 +648,9 @@
   <OUTPUT>
     <Type>Mover.Outputs.Memory</Type>
     <Name>OUTPUT :: MMF</Name>
-    <Location>1690,0</Location>
+    <Location>0,0</Location>
     <Size>870,420</Size>
-    <Visible>False</Visible>
+    <Visible>True</Visible>
     <CONTROLS>
       <NUDInterval>2</NUDInterval>
       <NUDStopTime>0</NUDStopTime>
@@ -671,7 +671,7 @@
   <VIEWER_3D>
     <Type>Mover.Viewers.View3D</Type>
     <Name>3D VIEWER :: ID5</Name>
-    <Location>1975,0</Location>
+    <Location>0,0</Location>
     <Size>585,503</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -687,7 +687,7 @@
   <VIEWER_GRAPHIC>
     <Type>Mover.Viewers.ViewGraphics</Type>
     <Name>GRAPHICS VIEWER :: ID10</Name>
-    <Location>1678,0</Location>
+    <Location>0,0</Location>
     <Size>882,626</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -705,17 +705,17 @@
     </CONTROLS>
   </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>10</item>
-    <item>11</item>
-    <item>14</item>
-    <item>15</item>
-    <item>14</item>
-    <item>14</item>
     <item>13</item>
-    <item>12</item>
+    <item>15</item>
+    <item>11</item>
     <item>18</item>
     <item>19</item>
     <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>12</item>
+    <item>10</item>
     <item>12</item>
   </Z_ORDER>
 </FLYPT_MOVER>
