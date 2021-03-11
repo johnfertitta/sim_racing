@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>1412,723</Location>
+    <Location>-1712,314</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -18,7 +18,7 @@
   <SOURCE>
     <Type>Mover.Sources.MMF.AssettoCorsa</Type>
     <Name>SOURCE :: ASSETTO CORSA (MMF)</Name>
-    <Location>2010,551</Location>
+    <Location>1341,735</Location>
     <Size>550,550</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -35,7 +35,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>803,939</Location>
+    <Location>-2305,300</Location>
     <Size>1344,450</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -59,10 +59,10 @@
       <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
       <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
       <pnlSway.nudSwayRange>15</pnlSway.nudSwayRange>
-      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;150);2.5;0.3)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
+      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;150);5;0.15)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
       <pnlPitch.afcPitchFilter.txtFilterText>MALP(VALUE;200)</pnlPitch.afcPitchFilter.txtFilterText>
-      <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);2;0.4)</pnlRoll.afcSwayInRollFilter.txtFilterText>
-      <pnlRoll.afcRollFilter.txtFilterText>MALP(VALUE;75)</pnlRoll.afcRollFilter.txtFilterText>
+      <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);6;0.15)</pnlRoll.afcSwayInRollFilter.txtFilterText>
+      <pnlRoll.afcRollFilter.txtFilterText>MALP(VALUE;150)</pnlRoll.afcRollFilter.txtFilterText>
       <pnlYaw.afcYawFilter.txtFilterText>VALUE</pnlYaw.afcYawFilter.txtFilterText>
       <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;100)</pnlHeave.afcHeaveFilter.txtFilterText>
       <pnlSurge.afcSurgeFilter.txtFilterText>VALUE</pnlSurge.afcSurgeFilter.txtFilterText>
@@ -94,7 +94,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
-    <Location>608,475</Location>
+    <Location>-2227,59</Location>
     <Size>1344,450</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -107,7 +107,7 @@
       <pnlRoll.nudRollInGain>1</pnlRoll.nudRollInGain>
       <pnlRoll.nudRollRange>10</pnlRoll.nudRollRange>
       <pnlYaw.nudYawOutGain>1</pnlYaw.nudYawOutGain>
-      <pnlYaw.nudYawInGain>1</pnlYaw.nudYawInGain>
+      <pnlYaw.nudYawInGain>0.8</pnlYaw.nudYawInGain>
       <pnlYaw.nudYawRange>180</pnlYaw.nudYawRange>
       <pnlHeave.nudHeaveOutGain>0</pnlHeave.nudHeaveOutGain>
       <pnlHeave.nudHeaveInGain>1</pnlHeave.nudHeaveInGain>
@@ -153,7 +153,7 @@
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
     <Name>3DOF Rig</Name>
-    <Location>1000,527</Location>
+    <Location>667,703</Location>
     <Size>1352,564</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -169,7 +169,7 @@
       <NUDGain>1</NUDGain>
       <NUDScale>1</NUDScale>
       <NUDSway>11</NUDSway>
-      <NUDPitch>6</NUDPitch>
+      <NUDPitch>5</NUDPitch>
       <NUDYaw>0</NUDYaw>
       <NUDRoll>2.5</NUDRoll>
       <NUDCORZ>0</NUDCORZ>
@@ -215,9 +215,9 @@
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
     <Name>Motion Comp Rig</Name>
-    <Location>8,407</Location>
+    <Location>6,543</Location>
     <Size>1352,564</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -277,9 +277,9 @@
   <RIG>
     <Type>Mover.Rigs.LinearActuator</Type>
     <Name>TL Platform</Name>
-    <Location>604,457</Location>
+    <Location>403,609</Location>
     <Size>1352,486</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -336,9 +336,9 @@
   <RIG>
     <Type>Mover.Rigs.LinearActuator</Type>
     <Name>Motion Comp TL Rig</Name>
-    <Location>604,457</Location>
+    <Location>403,609</Location>
     <Size>1352,486</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <NUDMovingZ>1</NUDMovingZ>
@@ -395,9 +395,9 @@
   <DIRECT>
     <Type>Mover.Directs.MultiDirect</Type>
     <Name>Belts</Name>
-    <Location>1527,725</Location>
+    <Location>1019,883</Location>
     <Size>1033,517</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlValues.nudValueGain7>-1</pnlValues.nudValueGain7>
       <pnlValues.nudValueGain2>0.25</pnlValues.nudValueGain2>
@@ -616,7 +616,7 @@
   <OUTPUT>
     <Type>Mover.Outputs.Thanos</Type>
     <Name>OUTPUT :: THANOS</Name>
-    <Location>10,827</Location>
+    <Location>-2331,563</Location>
     <Size>633,372</Size>
     <Visible>True</Visible>
     <CONTROLS>
@@ -624,7 +624,7 @@
       <NUDStopTime>0</NUDStopTime>
       <NUDStartTime>0</NUDStartTime>
       <TXTStopString></TXTStopString>
-      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;Belts&gt;&lt;TL&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
+      <TXTSendString>&lt;255&gt;&lt;255&gt;&lt;RL&gt;&lt;FL&gt;&lt;FR&gt;&lt;RR&gt;&lt;TL&gt;&lt;Belts&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;0&gt;&lt;10&gt;&lt;13&gt;</TXTSendString>
       <TXTStartString></TXTStartString>
       <TXTUniqueName>10</TXTUniqueName>
       <TXTName>OUTPUT :: THANOS</TXTName>
@@ -634,8 +634,8 @@
       <DDLTypeOfOutput>Binary</DDLTypeOfOutput>
       <DDLActuator8>None</DDLActuator8>
       <DDLActuator7>None</DDLActuator7>
-      <DDLActuator6>&lt;TL&gt;</DDLActuator6>
-      <DDLActuator5>&lt;Belts&gt;</DDLActuator5>
+      <DDLActuator6>&lt;Belts&gt;</DDLActuator6>
+      <DDLActuator5>&lt;TL&gt;</DDLActuator5>
       <DDLActuator4>&lt;RR&gt;</DDLActuator4>
       <DDLActuator3>&lt;FR&gt;</DDLActuator3>
       <DDLActuator2>&lt;FL&gt;</DDLActuator2>
@@ -648,7 +648,7 @@
   <OUTPUT>
     <Type>Mover.Outputs.Memory</Type>
     <Name>OUTPUT :: MMF</Name>
-    <Location>10,805</Location>
+    <Location>7,980</Location>
     <Size>570,420</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -671,7 +671,7 @@
   <VIEWER_3D>
     <Type>Mover.Viewers.View3D</Type>
     <Name>3D VIEWER :: ID5</Name>
-    <Location>6,458</Location>
+    <Location>5,611</Location>
     <Size>585,504</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -687,7 +687,7 @@
   <VIEWER_GRAPHIC>
     <Type>Mover.Viewers.ViewGraphics</Type>
     <Name>GRAPHICS VIEWER :: ID10</Name>
-    <Location>12,12</Location>
+    <Location>9,16</Location>
     <Size>882,626</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -700,17 +700,17 @@
     </CONTROLS>
   </VIEWER_GRAPHIC>
   <Z_ORDER>
-    <item>19</item>
-    <item>18</item>
     <item>10</item>
     <item>12</item>
     <item>14</item>
     <item>14</item>
-    <item>13</item>
-    <item>12</item>
+    <item>14</item>
     <item>14</item>
     <item>15</item>
     <item>14</item>
-    <item>14</item>
+    <item>13</item>
+    <item>12</item>
+    <item>18</item>
+    <item>19</item>
   </Z_ORDER>
 </FLYPT_MOVER>
