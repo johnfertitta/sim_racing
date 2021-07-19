@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>-1712,314</Location>
+    <Location>2425,-728</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -35,16 +35,16 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>-2305,300</Location>
+    <Location>1754,-654</Location>
     <Size>1344,450</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
       <pnlPitch.nudPitchOutGain>0.35</pnlPitch.nudPitchOutGain>
       <pnlPitch.nudPitchInGain>1</pnlPitch.nudPitchInGain>
       <pnlPitch.nudPitchRange>6</pnlPitch.nudPitchRange>
-      <pnlRoll.nudSwayInRollOutGain>1</pnlRoll.nudSwayInRollOutGain>
-      <pnlRoll.nudRollOutGain>0.4</pnlRoll.nudRollOutGain>
+      <pnlRoll.nudSwayInRollOutGain>0.7</pnlRoll.nudSwayInRollOutGain>
+      <pnlRoll.nudRollOutGain>0.400</pnlRoll.nudRollOutGain>
       <pnlRoll.nudRollInGain>1</pnlRoll.nudRollInGain>
       <pnlRoll.nudRollRange>6</pnlRoll.nudRollRange>
       <pnlYaw.nudYawOutGain>0</pnlYaw.nudYawOutGain>
@@ -59,12 +59,12 @@
       <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
       <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
       <pnlSway.nudSwayRange>15</pnlSway.nudSwayRange>
-      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;150);5;0.15)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
+      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;150);5;0.2)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
       <pnlPitch.afcPitchFilter.txtFilterText>MALP(VALUE;200)</pnlPitch.afcPitchFilter.txtFilterText>
       <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);6;0.15)</pnlRoll.afcSwayInRollFilter.txtFilterText>
       <pnlRoll.afcRollFilter.txtFilterText>MALP(VALUE;150)</pnlRoll.afcRollFilter.txtFilterText>
       <pnlYaw.afcYawFilter.txtFilterText>VALUE</pnlYaw.afcYawFilter.txtFilterText>
-      <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;100)</pnlHeave.afcHeaveFilter.txtFilterText>
+      <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;50)</pnlHeave.afcHeaveFilter.txtFilterText>
       <pnlSurge.afcSurgeFilter.txtFilterText>VALUE</pnlSurge.afcSurgeFilter.txtFilterText>
       <pnlSway.afcSwayFilter.txtFilterText>VALUE</pnlSway.afcSwayFilter.txtFilterText>
       <TXTUniqueName>12</TXTUniqueName>
@@ -94,9 +94,9 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
-    <Location>-2227,59</Location>
+    <Location>0,59</Location>
     <Size>1344,450</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>0</pnlPitch.nudSurgeInPitchOutGain>
       <pnlPitch.nudPitchOutGain>0</pnlPitch.nudPitchOutGain>
@@ -155,7 +155,7 @@
     <Name>3DOF Rig</Name>
     <Location>667,703</Location>
     <Size>1352,564</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -616,9 +616,9 @@
   <OUTPUT>
     <Type>Mover.Outputs.Thanos</Type>
     <Name>OUTPUT :: THANOS</Name>
-    <Location>-2331,563</Location>
+    <Location>0,563</Location>
     <Size>633,372</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <NUDInterval>1</NUDInterval>
       <NUDStopTime>0</NUDStopTime>
@@ -701,16 +701,16 @@
   </VIEWER_GRAPHIC>
   <Z_ORDER>
     <item>10</item>
-    <item>12</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
-    <item>15</item>
-    <item>14</item>
     <item>13</item>
-    <item>12</item>
+    <item>15</item>
     <item>18</item>
     <item>19</item>
+    <item>12</item>
+    <item>12</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
   </Z_ORDER>
 </FLYPT_MOVER>

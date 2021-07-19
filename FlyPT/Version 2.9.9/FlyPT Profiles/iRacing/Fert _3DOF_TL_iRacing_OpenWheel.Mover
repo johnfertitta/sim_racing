@@ -37,7 +37,7 @@
     <Name>Motion Pose</Name>
     <Location>228,332</Location>
     <Size>1344,450</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <pnlPitch.nudSurgeInPitchOutGain>1</pnlPitch.nudSurgeInPitchOutGain>
       <pnlPitch.nudPitchOutGain>0.3</pnlPitch.nudPitchOutGain>
@@ -155,7 +155,7 @@
     <Name>3DOF Rig</Name>
     <Location>606,756</Location>
     <Size>1352,564</Size>
-    <Visible>True</Visible>
+    <Visible>False</Visible>
     <CONTROLS>
       <PNLActuatorsOutput.nudDefault0>0</PNLActuatorsOutput.nudDefault0>
       <PNLActuatorsOutput.nudDefault1>0</PNLActuatorsOutput.nudDefault1>
@@ -706,11 +706,11 @@
     <item>13</item>
     <item>15</item>
     <item>10</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
+    <item>14</item>
     <item>12</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
-    <item>14</item>
     <item>12</item>
   </Z_ORDER>
 </FLYPT_MOVER>

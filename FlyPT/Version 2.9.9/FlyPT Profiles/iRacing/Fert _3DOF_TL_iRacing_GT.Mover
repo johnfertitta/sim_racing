@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FLYPT_MOVER Version="2.9.9">
   <MAIN>
-    <Location>2649,-851</Location>
+    <Location>1926,-735</Location>
   </MAIN>
   <OPTIONS>
     <chkMinimize>False</chkMinimize>
@@ -35,7 +35,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>Motion Pose</Name>
-    <Location>0,204</Location>
+    <Location>465,664</Location>
     <Size>1344,450</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -52,19 +52,19 @@
       <pnlYaw.nudYawRange>0</pnlYaw.nudYawRange>
       <pnlHeave.nudHeaveOutGain>1</pnlHeave.nudHeaveOutGain>
       <pnlHeave.nudHeaveInGain>1</pnlHeave.nudHeaveInGain>
-      <pnlHeave.nudHeaveRange>25</pnlHeave.nudHeaveRange>
+      <pnlHeave.nudHeaveRange>20.0</pnlHeave.nudHeaveRange>
       <pnlSurge.nudSurgeOutGain>1</pnlSurge.nudSurgeOutGain>
       <pnlSurge.nudSurgeInGain>1</pnlSurge.nudSurgeInGain>
       <pnlSurge.nudSurgeRange>20</pnlSurge.nudSurgeRange>
       <pnlSway.nudSwayOutGain>1</pnlSway.nudSwayOutGain>
       <pnlSway.nudSwayInGain>1</pnlSway.nudSwayInGain>
       <pnlSway.nudSwayRange>20</pnlSway.nudSwayRange>
-      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;150);5.000;0.150)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
+      <pnlPitch.afcSurgeInPitchFilter.txtFilterText>LOGISTIC(MALP(VALUE;125);5;0.150)</pnlPitch.afcSurgeInPitchFilter.txtFilterText>
       <pnlPitch.afcPitchFilter.txtFilterText>MALP(VALUE;100)</pnlPitch.afcPitchFilter.txtFilterText>
       <pnlRoll.afcSwayInRollFilter.txtFilterText>LOGISTIC(MALP(VALUE;250);10.000;0.150)</pnlRoll.afcSwayInRollFilter.txtFilterText>
       <pnlRoll.afcRollFilter.txtFilterText>MALP(VALUE;100)</pnlRoll.afcRollFilter.txtFilterText>
       <pnlYaw.afcYawFilter.txtFilterText>VALUE</pnlYaw.afcYawFilter.txtFilterText>
-      <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;100)</pnlHeave.afcHeaveFilter.txtFilterText>
+      <pnlHeave.afcHeaveFilter.txtFilterText>MALP(VALUE;75)</pnlHeave.afcHeaveFilter.txtFilterText>
       <pnlSurge.afcSurgeFilter.txtFilterText>VALUE</pnlSurge.afcSurgeFilter.txtFilterText>
       <pnlSway.afcSwayFilter.txtFilterText>VALUE</pnlSway.afcSwayFilter.txtFilterText>
       <TXTUniqueName>12</TXTUniqueName>
@@ -94,7 +94,7 @@
   <POSE>
     <Type>Mover.Poses.AdvancedPoseFromMotion</Type>
     <Name>TL Pose</Name>
-    <Location>0,0</Location>
+    <Location>609,0</Location>
     <Size>1344,450</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -107,7 +107,7 @@
       <pnlRoll.nudRollInGain>1</pnlRoll.nudRollInGain>
       <pnlRoll.nudRollRange>10</pnlRoll.nudRollRange>
       <pnlYaw.nudYawOutGain>1</pnlYaw.nudYawOutGain>
-      <pnlYaw.nudYawInGain>0.8</pnlYaw.nudYawInGain>
+      <pnlYaw.nudYawInGain>0.980</pnlYaw.nudYawInGain>
       <pnlYaw.nudYawRange>180</pnlYaw.nudYawRange>
       <pnlHeave.nudHeaveOutGain>0</pnlHeave.nudHeaveOutGain>
       <pnlHeave.nudHeaveInGain>1.000</pnlHeave.nudHeaveInGain>
@@ -122,7 +122,7 @@
       <pnlPitch.afcPitchFilter.txtFilterText>VALUE</pnlPitch.afcPitchFilter.txtFilterText>
       <pnlRoll.afcSwayInRollFilter.txtFilterText>VALUE</pnlRoll.afcSwayInRollFilter.txtFilterText>
       <pnlRoll.afcRollFilter.txtFilterText>VALUE</pnlRoll.afcRollFilter.txtFilterText>
-      <pnlYaw.afcYawFilter.txtFilterText>MALP(LOGISTIC(CUBIC3(MALP(VALUE;100);0.000004);45;10);100)</pnlYaw.afcYawFilter.txtFilterText>
+      <pnlYaw.afcYawFilter.txtFilterText>LOGISTIC(CUBIC3(MALP(VALUE;100);0.000002);45.000;10.000)</pnlYaw.afcYawFilter.txtFilterText>
       <pnlHeave.afcHeaveFilter.txtFilterText>VALUE</pnlHeave.afcHeaveFilter.txtFilterText>
       <pnlSurge.afcSurgeFilter.txtFilterText>VALUE</pnlSurge.afcSurgeFilter.txtFilterText>
       <pnlSway.afcSwayFilter.txtFilterText>VALUE</pnlSway.afcSwayFilter.txtFilterText>
@@ -153,7 +153,7 @@
   <RIG>
     <Type>Mover.Rigs.LinearFour</Type>
     <Name>3DOF Rig</Name>
-    <Location>360,450</Location>
+    <Location>181,450</Location>
     <Size>1352,564</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -616,7 +616,7 @@
   <OUTPUT>
     <Type>Mover.Outputs.Thanos</Type>
     <Name>OUTPUT :: THANOS</Name>
-    <Location>160,765</Location>
+    <Location>81,765</Location>
     <Size>633,372</Size>
     <Visible>False</Visible>
     <CONTROLS>
@@ -706,16 +706,16 @@
   </VIEWER_GRAPHIC>
   <Z_ORDER>
     <item>11</item>
-    <item>13</item>
-    <item>18</item>
-    <item>19</item>
-    <item>12</item>
     <item>12</item>
     <item>14</item>
-    <item>10</item>
+    <item>14</item>
     <item>15</item>
     <item>14</item>
     <item>14</item>
-    <item>14</item>
+    <item>13</item>
+    <item>10</item>
+    <item>12</item>
+    <item>18</item>
+    <item>19</item>
   </Z_ORDER>
 </FLYPT_MOVER>

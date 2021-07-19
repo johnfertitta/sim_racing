@@ -24,7 +24,7 @@
       "ContainerType": "RPMContainer",
       "Description": "1) MAIN RPM  CHARACTER - BASE = 44Hz",
       "AggregationMode": null,
-      "Gain": 85.333333333333371,
+      "Gain": 84.666666666665719,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -68,7 +68,7 @@
       "ContainerType": "RPMContainer",
       "Description": "2) MAIN RPM  CHARACTER - 1st Tier Harmonic - BASE = 88Hz",
       "AggregationMode": null,
-      "Gain": 85.333333333333371,
+      "Gain": 84.666666666664923,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -108,7 +108,7 @@
       "ContainerType": "RPMContainer",
       "Description": "3) ENGINE IDLE - ADJUST CURVE HEIGHT POSITION TO ALTER RESPONSE - Base = 37Hz   * NOTE LAYER No.3 IS LINKED TO THIS LAYER - ALTERING Hz CAN CAUSE ISSUES ",
       "AggregationMode": null,
-      "Gain": 49.999999999999659,
+      "Gain": 50.666666666666174,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -151,7 +151,7 @@
       "ContainerType": "RPMContainer",
       "Description": "4) LOW-MID RPM DETAIL - BASE = 51Hz (MAY CAUSE IDLE SENSATION ON HIGH RPM CARS - NEEDS SUITABLE VOLUME)",
       "AggregationMode": null,
-      "Gain": 40.000000000000114,
+      "Gain": 40.000000000000341,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -191,7 +191,7 @@
       "ContainerType": "RPMContainer",
       "Description": "5) PEAK RPM STRAIN - BASE = 35Hz - 1 OF 2",
       "AggregationMode": null,
-      "Gain": 55.333333333333371,
+      "Gain": 54.666666666667311,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -231,7 +231,7 @@
       "ContainerType": "RPMContainer",
       "Description": "6) PEAK RPM STRAIN - BASE = 70Hz - 2 OF 2 ",
       "AggregationMode": null,
-      "Gain": 60.333333333332916,
+      "Gain": 60.333333333332689,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -256,9 +256,14 @@
       "Algorythm": null
     },
     {
+      "ModulateGainUsingRpms": false,
+      "MaxFeedbackRpmPercent": 90,
+      "MinFeedbackRpmPercent": 50,
+      "GearMode": 2,
       "AlwaysIgnoreNeutral": false,
       "IgnoreNeutral": true,
       "NeutralDebouningTime": 200.0,
+      "EngagingDebouningTime": 1000.0,
       "Filter": {
         "Duration": 50,
         "MaxValue": 1.0,
@@ -269,7 +274,7 @@
       "ContainerType": "GearEffectContainer",
       "Description": "7) Basic",
       "AggregationMode": null,
-      "Gain": 55.333333333333258,
+      "Gain": 80.0,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": true,
@@ -286,9 +291,14 @@
       "Algorythm": null
     },
     {
+      "ModulateGainUsingRpms": false,
+      "MaxFeedbackRpmPercent": 90,
+      "MinFeedbackRpmPercent": 50,
+      "GearMode": 2,
       "AlwaysIgnoreNeutral": false,
       "IgnoreNeutral": true,
       "NeutralDebouningTime": 200.0,
+      "EngagingDebouningTime": 1000.0,
       "Filter": {
         "Duration": 100,
         "MaxValue": 1.0,
@@ -299,7 +309,7 @@
       "ContainerType": "GearEffectContainer",
       "Description": "8) Basic ",
       "AggregationMode": null,
-      "Gain": 55.333333333333258,
+      "Gain": 75.333333333333485,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": true,
@@ -324,7 +334,7 @@
       "ContainerType": "GearGrindingContainer",
       "Description": "Provides feedback for grinding gears (Iracing only)",
       "AggregationMode": null,
-      "Gain": 54.66666666666697,
+      "Gain": 45.333333333333712,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -435,7 +445,7 @@
       "ContainerType": "WheelsImpactContainer",
       "Description": "Provides localized feedback for bumps and other wheels impact on road",
       "AggregationMode": "Corners",
-      "Gain": 30.000000000000455,
+      "Gain": 12.666666666667197,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -472,7 +482,7 @@
       "ContainerType": "WheelsRumbleContainer",
       "Description": "Provides localized rumble for kerbs, grass ...",
       "AggregationMode": "Corners",
-      "Gain": 29.999999999999773,
+      "Gain": 10.999999999999773,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -511,7 +521,7 @@
       "ContainerType": "WheelsVibrationContainer",
       "Description": "Provides localized road vibration based on suspension telemetry",
       "AggregationMode": "Corners",
-      "Gain": 29.999999999999773,
+      "Gain": 11.999999999999773,
       "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -573,7 +583,7 @@
     },
     {
       "Filter": {
-        "GammaValue": 1.0,
+        "GammaValue": 0.64999999999999969,
         "FilterType": "SimpleGammaFilter"
       },
       "LowSpeed": 5,
@@ -584,13 +594,13 @@
       "ContainerType": "SpeedContainer",
       "Description": "Provide simple speed proportional feedback",
       "AggregationMode": null,
-      "Gain": 3.3333333333331439,
-      "IsEnabled": false,
+      "Gain": 5.3333333333331439,
+      "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
-        "Frequency": 55,
-        "UseHighFrequency": false,
-        "HighFrequency": 50,
+        "Frequency": 50,
+        "UseHighFrequency": true,
+        "HighFrequency": 55,
         "WhiteNoise": 10,
         "UseWhiteNoise": false,
         "EnableDurationModulation": false,
@@ -662,8 +672,8 @@
       "ContainerType": "WheelsLockContainer",
       "Description": "Provide localized wheel slip and lock feedback under braking",
       "AggregationMode": "Corners",
-      "Gain": 83.333333333333371,
-      "IsEnabled": false,
+      "Gain": 10.333333333332917,
+      "IsEnabled": true,
       "Output": {
         "UsePrehemptiveMode": false,
         "Frequency": 50,
@@ -684,7 +694,7 @@
         "DisableOutput": false,
         "OutputType": "ToneOutput"
       },
-      "Algorythm": null
+      "Algorythm": "RPM vs Speed"
     },
     {
       "BrakeFilter": 10,
@@ -692,10 +702,10 @@
         "GammaValue": 1.0,
         "InputGain": 100.0,
         "MinimumForce": 0,
-        "Threshold": 0,
+        "Threshold": 20,
         "FilterType": "GammaFilter"
       },
-      "MuteWhenLockEffectIsActive": false,
+      "MuteWhenLockEffectIsActive": true,
       "ThrottleFilter": 10,
       "UseBrakeFilter": false,
       "UseThrottleFilter": false,
@@ -703,7 +713,7 @@
       "ContainerType": "WheelsSlipContainer",
       "Description": "Provide localized wheel slip feedback",
       "AggregationMode": "Corners",
-      "Gain": 42.0,
+      "Gain": 5.3333333333334849,
       "IsEnabled": false,
       "Output": {
         "UsePrehemptiveMode": false,
@@ -725,12 +735,12 @@
         "DisableOutput": false,
         "OutputType": "ToneOutput"
       },
-      "Algorythm": null
+      "Algorythm": "RPM vs Speed"
     }
   ],
-  "AutoCalibrationRatio2": 100,
+  "AutoCalibrationRatio2": 0,
   "GameCode": "AnyGame",
-  "LastLoaded": "2021-01-26T01:12:56.6209471-05:00",
+  "LastLoaded": "2021-04-08T21:51:50.1987706-04:00",
   "Name": "Mr Latte -  V3 BETA ENGINE 2.1 With Added Harmonic and Orions",
   "ProfileId": "3400ab68-3595-4ee4-9aec-1687551252df",
   "OutputMode": 1,
